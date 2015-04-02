@@ -354,3 +354,5 @@ Configure::write('Config.default_language', 'en');
 
 //Minify
 Configure::write('MinifyAsset', true);
+
+error_reporting(E_ALL & ~E_STRICT & ~E_NOTICE);

@@ -57,16 +57,19 @@
 
 
 class DATABASE_CONFIG {
-	
-	public $default = array(
-		'datasource' => 'Database/Postgres',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'postgres',
-		'password' => 'postgres',
-		'database' => 'wohaooedu',
-		'prefix' => 'tbl_'
-	);
+    function __construct() {
+        $url = parse_url(getenv('DATABASE_URL'));
+        $this->default = array(
+            'datasource' => 'Database/Postgres',
+            'persistent' => false,
+            'host' => $url['host'],
+            'login' => $url['user'],
+            'password' => $url['pass'],
+            'database' => substr($url['path'],1),
+            'prefix' => 'tbl_'
+        );
+    }	
+
 	
 	public $sqlite3 = array(
 		'datasource' => 'Database/Sqlite',
