@@ -1,0 +1,26 @@
+{
+  "name": "wohaoo/edu",
+  "description": "WOHAOO Education 1.0",
+  "type": "project",
+  "keywords" : [],
+  "homepage" : "http://www.wohaoo.org",
+  "license" : "MIT",
+  "require" : {
+    "php" : ">=5.4",
+    "composer/installers" : "~1.0",
+    "cakephp/cakephp" : "2.5.*"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "heroku": {
+      "framework": "cakephp2",
+      "document-root": "webroot",
+      "index-document": "index.php"
+    }
+  }
+}
