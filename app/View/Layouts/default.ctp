@@ -15,24 +15,22 @@
 		<script type="text/javascript" src="/js/crypto-js/md5.js" ></script>
 		<script type="text/javascript" src="/translations/database/en?langs=all&hash=1018192" ></script>
 		
-		<?php
-		/**
+		
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojox/mobile/deviceTheme.js" ></script>
 		<link href="https://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojox/mobile/themes/common/domButtons.css" rel="stylesheet"/>
 		<link href="https://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow.css" rel="stylesheet"/>
-		*/
-		?>
+		
 		
 		<?php
 		/*<script type="text/javascript" src="/js/wohaooedu/lib/dojox/mobile/deviceTheme.js" ></script>
 		<link href="/js/wohaooedu/lib/dojox/mobile/themes/common/domButtons.css" rel="stylesheet"/>
 		<link href="/js/wohaooedu/lib/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow.css" rel="stylesheet"/>*/
 		?>
-		
+		<?php/**
 		<script type="text/javascript" src="/js/dojo-src/dojox/mobile/deviceTheme.js" ></script>
 		<link href="/js/dojo-src/dojox/mobile/themes/common/domButtons.css" rel="stylesheet"/>
 		<link href="/js/dojo-src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow.css" rel="stylesheet"/>
-		
+		*/?>
 		
 		<?php
 			echo $this->Html2->less('/css/mobile'); 
@@ -54,14 +52,14 @@
 					// Any references to a "demo" resource should load modules locally, *not* from CDN
 					{
 						name: "wedu",
-						location: "/js/dojo-src/edu"
+						location: "/js/wohaooedu/lib/edu"
 					}
 				],
 				packages: [
 					// Any references to a "demo" resource should load modules locally, *not* from CDN
 					{
 						name: "wedu",
-						location: "/js/dojo-src/edu"
+						location: "/js/wohaooedu/lib/edu"
 					}
 				],
 				parseOnLoad: true
@@ -71,14 +69,12 @@
 		/*<script type="text/javascript" src="/js/wohaooedu/lib/dojo/dojo.js"></script>
 		<script type="text/javascript" src="/js/wohaooedu/lib/edu/wohaoo.js"></script>*/?>
 		
-		
+		<?php/**
 		<script type="text/javascript" src="/js/dojo-src/dojo/dojo.js"></script>
+		*/?>
 	
-		<?php
-		/*
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojo/dojo.js"></script>
 		<script type="text/javascript" src="/js/wohaooedu/lib/edu/wohaoo.js">
-		*/?>
 		
 		<script type="text/javascript">
 			require(["dojox/mobile/parser", "dijit/registry", "dojo/query!css3", 
