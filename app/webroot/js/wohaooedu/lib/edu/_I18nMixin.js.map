@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"_I18nMixin.js",
+"lineCount":1,
+"mappings":"A,SAAAA,MAAA,gHAEG,QAAA,CAASC,CAAT,CAAsBC,CAAtB,CAA+BC,CAA/B,QACKD,EAAA,EAASD,CAAT,QACAE,CADA,YAGMC,QAAAA,CAAoBC,CAApBD,QACPE,UAAA,CAAUD,CAAV,CADOD,CAEFE,SAAA,CAAUD,CAAV,CAFED,CAIDC,CAJCD,CAHN,EADL,CAFH;",
+"sources":["_I18nMixin.js.uncompressed.js"],
+"names":["define","_WidgetBase","declare","sysI18n","_translate","labelStr","i18n"]
+}

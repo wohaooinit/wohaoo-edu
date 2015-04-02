@@ -1,0 +1,66 @@
+div.pageContainer{
+	background-color: #fbfbfb;
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #888;
+	border-radius: 10px;
+	color: black;
+	box-shadow: 0px 2px 2px #AAA;
+	padding-top: 40px;
+	
+	.pageHeader {
+		height: 100px;
+		background-color: #cccccc;
+		padding: 10px;
+		z-index: 99;
+		position: relative;
+		border-bottom: 1px solid #aaa;
+		
+		h2.title{
+			background-color: transparent;
+			font-weight: normal;
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+		}
+		
+		h4.desc {
+			font-size: 15px;
+			font-weight: normal;
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+	}
+	
+	.pageActionsBar {
+		min-height: 40px;
+		margin-left: 45px;
+		margin-right: 45px;
+		background: #E3EBF2 url(/img/pageheader-shadow.png) no-repeat scroll center 9px;
+		background-size: 100%;
+		border: 1px solid #e3ebf2;
+		border-radius: 10px;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		z-index: -1;
+		padding: 20px;
+		
+		a, a:hover, a:visited{
+			font-weight: bold;
+			color: #08c;
+			text-decoration: none;
+			margin-right: 40px;
+		}
+	}
+	
+	.pageContent{
+		padding: 0px;
+		margin-left: 45px;
+		margin-right: 45px;
+		
+		dd.value, dt.label{
+			display: block;
+			background-color: transparent;
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+}

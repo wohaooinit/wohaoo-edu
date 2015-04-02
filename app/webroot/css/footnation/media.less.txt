@@ -1,0 +1,35 @@
+@media screen{
+	 li {
+		margin-left: 10px;
+		margin-right: 10px;
+		a.js-nav{ 
+			padding-left: 3px;
+			padding-right: 3px;
+		}
+	}
+	.topbar{
+		 .global-nav-inner {
+			min-width: 1200px;
+		}
+	}
+}
+
+@media handheld{
+	 li {
+		margin-left: 0px;
+		margin-right: 0px;
+		a.js-nav{ 
+			padding-left: 3px;
+			padding-right: 3px;
+			span.text{
+				display: none;
+			}
+		}
+	}
+	
+	.topbar{
+		 .global-nav-inner {
+			min-width: 680px;
+		}
+	}
+}

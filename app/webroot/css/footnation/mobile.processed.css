@@ -1,0 +1,673 @@
+@font-face {
+  font-family: 'Foot Nation';
+  src: url("../../fonts/footnationfont.ttf") format('truetype');
+  src: url("../../fonts/footnationfont.otf") format('opentype'), url("../../fonts/footnationfont.woff") format('woff');
+}
+@font-face {
+  font-family: 'General Foundations';
+  src: url("../../fonts/general_foundicons.ttf") format('truetype');
+  src: url("../../fonts/general_foundicons.eot") format('eot'), url("../../fonts/general_foundicons.woff") format('woff');
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../../fonts/fontawesome-webfont.eot");
+  src: url("../../fonts/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("../../fonts/fontawesome-webfont.woff") format('woff'), url("http://127.0.0.1/font/fontawesome-webfont.svg#FontAwesome") format('svg'), url("http://127.0.0.1/font/fontawesome-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mobile .settingsSilentModeItem #settingsSilentModeSwitch {
+ margin-top: 16px;
+  float: right;
+}
+
+.mobile .settingsGoalNotificationItem #selectGoalNotification {
+  float: right;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.mobile .settingsAttemptNotificationItem #selectAttemptNotification {
+  float: right;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.mobile .settingsVolumeItem .settingsVolumeRange {
+  margin-top: 16px;
+  float: right;
+}
+.mobile .settingsVolumeItem .mblListItemLabel {
+  float: left;
+}
+.mobile .loginDialog {
+  width: 274px;
+  margin: auto;
+  height: 100%;
+}
+.mobile .loginDialog .loginHeaderPane {
+  height: 100%;
+  padding-left: 15px;
+}
+.mobile .loginDialog .loginHeaderPane .company-logo {
+  font-size: 40px;
+  font-family: Arial Black;
+}
+.mobile .loginDialog .loginHeaderPane .company-logo.center {
+  top: 40%;
+  left: 25%;
+  position: relative;
+}
+.mobile .loginDialog .loginHeaderPane .company-logo:after {
+  content: "";
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-image: url(../../img/logo-32-32.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-left: 4px;
+  top: 3px;
+  position: relative;
+}
+.mobile .loginDialog .loginPane {
+  width: 100%;
+  margin: auto;
+  margin: 7px 9px 16px;
+  padding: 15px;
+  border: 1px solid #adaaad;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.mobile .loginDialog .loginPane .dijitPlaceHolder.dijitInputField {
+  position: absolute;
+  left: 0px;
+  font-size: 80%;
+  color: #bebebe;
+  margin: 4px;
+}
+.mobile .loginDialog .loginPane .loginButton,
+.mobile .loginDialog .loginPane .passwordInput,
+.mobile .loginDialog .loginPane .emailInput {
+  width: 100%;
+}
+.mobile .loginDialog .loginPane .emailInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .loginDialog .loginPane .passwordInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .logoutDialog {
+  width: 274px;
+  margin: auto;
+  height: 100%;
+}
+.mobile .logoutDialog .logoutHeaderPane {
+  height: 100%;
+  padding-left: 15px;
+}
+.mobile .logoutDialog .logoutHeaderPane .company-logo {
+  font-size: 40px;
+  font-family: Arial Black;
+}
+.mobile .logoutDialog .logoutHeaderPane .company-logo.center {
+  top: 40%;
+  left: 25%;
+  position: relative;
+}
+.mobile .logoutDialog .logoutHeaderPane .company-logo:after {
+  content: "";
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-image: url(../../img/logo-32-32.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-left: 4px;
+  top: 3px;
+  position: relative;
+}
+.mobile .logoutDialog .logoutPane {
+  width: 100%;
+  margin: auto;
+  margin: 7px 9px 16px;
+  padding: 15px;
+  border: 1px solid #adaaad;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.mobile .logoutDialog .logoutPane .logoutButton {
+  width: 100%;
+}
+.mobile .signupDialog {
+  width: 274px;
+  margin: auto;
+  height: 100%;
+}
+.mobile .signupDialog .signupHeaderPane {
+  height: 100%;
+  padding-left: 15px;
+}
+.mobile .signupDialog .signupHeaderPane .company-logo {
+  font-size: 40px;
+  font-family: Arial Black;
+}
+.mobile .signupDialog .signupHeaderPane .company-logo.center {
+  top: 40%;
+  left: 25%;
+  position: relative;
+}
+.mobile .signupDialog .signupHeaderPane .company-logo:after {
+  content: "";
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-image: url(/img/logo-32-32.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-left: 4px;
+  top: 3px;
+  position: relative;
+}
+.mobile .signupDialog .signupPane {
+  width: 100%;
+  margin: auto;
+  margin: 7px 9px 16px;
+  padding: 15px;
+  border: 1px solid #adaaad;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.mobile .signupDialog .signupPane .dijitPlaceHolder.dijitInputField {
+  position: absolute;
+  left: 0px;
+  font-size: 80%;
+  color: #bebebe;
+  margin: 4px;
+}
+.mobile .signupDialog .signupPane .signupButton,
+.mobile .signupDialog .signupPane .firstNameInput,
+.mobile .signupDialog .signupPane .lastNameInput,
+.mobile .signupDialog .signupPane .passwordInput,
+.mobile .signupDialog .signupPane .emailInput {
+  width: 100%;
+}
+.mobile .signupDialog .signupPane .firstNameInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .signupDialog .signupPane .lastNameInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .signupDialog .signupPane .emailInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .signupDialog .signupPane .passwordInputPane {
+  margin-bottom: 10px;
+  width: 98%;
+}
+.mobile .mblHidden {
+  display: none;
+}
+.mobile .mblOverlay {
+  height: 100%;
+}
+.mobile .mblView .overlay .waiting {
+  position: relative;
+  top: 50%;
+  width: 50px;
+  margin: auto;
+}
+.mobile .headerImage {
+  margin: 5px;
+}
+.mobile .headerDetails {
+  overflow: visible;
+  text-align: left;
+}
+.mobile .proImage {
+  margin: 8px;
+}
+.mobile .proDetails {
+  margin-left: 50px;
+  overflow: visible;
+}
+.mobile .proDetails .proClub {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+}
+.mobile .proDetails .proValue {
+  font-size: 75%;
+  font-weight: normal;
+}
+.mobile .proDetails .proValue strong {
+  margin-right: 10px;
+}
+.mobile .proDetails .proRanking {
+  font-size: 75%;
+  font-weight: normal;
+}
+.mobile .proDetails .proRanking strong {
+  margin-right: 10px;
+}
+.mobile .mblListItem.pro {
+  padding: 12px;
+}
+.mobile .stat {
+  height: 300px;
+}
+.mobile .stat .mblRoundRect {
+  margin: auto;
+  margin-top: 10px;
+  height: 210px;
+  width: 274px;
+}
+.mobile .stat .chart {
+  display: block;
+  width: 250px;
+  height: 170px;
+  margin: auto;
+}
+.mobile .tweet .tweetviewHidden {
+  display: none;
+}
+.mobile .tweet .tweetviewList li {
+  min-height: 55px;
+  padding-top: 8px;
+}
+.mobile .tweet .tweetviewListItem {
+  line-height: 18px;
+  height: auto;
+}
+.mobile .tweet .tweetviewAvatar {
+  float: left;
+}
+.mobile .tweet .tweetviewContent {
+  padding-left: 60px;
+}
+.mobile .tweet .tweetviewUser {
+  font-size: 80%;
+}
+.mobile .tweet .tweetviewText {
+  font-size: 70%;
+  font-weight: normal;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+.mobile .tweet .android .tweetviewText {
+  font-size: 50%;
+}
+.mobile .tweet .tweetviewTime {
+  float: right;
+  color: #777;
+  font-size: 65%;
+  font-weight: normal;
+  padding-right: 10px;
+}
+.mobile .tweet .tweetviewClear {
+  clear: both;
+}
+.mobile .tweet .tweetviewSwitch {
+  right: 10px;
+  top: 10px;
+  float: right;
+}
+.mobile .tweet .tweetviewHidden {
+  display: none;
+}
+.mobile .attribute .attributeName {
+  font-weight: bold;
+}
+.mobile .attribute .attributeValue {
+  font-weight: normal;
+}
+.mobile .activity {
+  font-size: 15px;
+}
+.mobile .activity .activity-icon {
+  float: left;
+}
+.mobile .activity .activity-container {
+  margin-left: 40px;
+  overflow: visible;
+  padding: 10px;
+}
+.mobile .activity .activity-container .activity-since {
+  font-size: 75%;
+  color: #00f;
+}
+.mobile .activity .relative {
+  position: relative !important;
+}
+.mobile .activity .inline-block {
+  display: inline-block !important;
+}
+.mobile .activity .block {
+  display: block !important;
+}
+.mobile .activity .pad-lr0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.mobile .activity .pad-12 {
+  padding: 12px;
+}
+.mobile .activity .blob.date,
+.mobile .activity .blob.time {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+}
+.mobile .activity .blob {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.mobile .activity .blob.blob2 {
+  width: 70px;
+}
+.mobile .activity .blob.date,
+.mobile .activity .blob.time {
+  font-size: 13px;
+}
+.mobile .activity .fwb {
+  font-weight: 700;
+}
+.mobile .activity .activity-header {
+  min-height: 16px;
+}
+.mobile .activity .activity-icon {
+  font-family: 'Foot Nation';
+  font-size: 30px;
+  font-weight: normal;
+}
+.mobile .activity .activity-type-icon {
+  border-radius: 50%;
+  background-color: #E3EBF2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.mobile .activity .image-icon:before {
+  content: "c";
+}
+.mobile .activity .video-icon:before {
+  content: "d";
+}
+.mobile .activity .text-icon:before {
+  content: "w";
+}
+.mobile .activity .attempt-icon:before {
+  content: "j";
+}
+.mobile .activity .replacement-icon:before {
+  content: "u";
+}
+.mobile .activity .goal-icon:before {
+  content: "l";
+}
+.mobile .activity .top_catch-icon:before {
+  content: "k";
+}
+.mobile .activity .yellow-icon:before {
+  content: "e";
+  color: yellow;
+}
+.mobile .activity .red-icon:before {
+  content: "e";
+  color: red;
+}
+.mobile .activity .goal-type-icon {
+  font-family: 'Foot Nation';
+  font-size: 22px;
+  font-weight: normal;
+}
+.mobile .activity .goal-lf-icon:before {
+  content: "r";
+}
+.mobile .activity .goal-rf-icon:before {
+  content: "s";
+}
+.mobile .activity .goal-hg-icon:before {
+  content: "m";
+}
+.mobile .activity .goal-bg-icon:before {
+  content: "b";
+}
+.mobile .activity .goal-distance:before {
+  font-family: 'Foot Nation';
+  font-size: 22px;
+  font-weight: normal;
+  content: "x";
+}
+.mobile .activity .goal-passer-player:before {
+  font-family: 'Foot Nation';
+  font-size: 22px;
+  font-weight: normal;
+  content: "a";
+}
+.mobile .activity .replacement-replaced-player:before {
+  font-family: FontAwesome;
+  font-size: 22px;
+  font-weight: normal;
+  color: red;
+  content: "\f0a9";
+  vertical-align: top;
+}
+.mobile .activity a.button {
+  font-family: FontAwesome;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+  float: right;
+  margin-left: 10px;
+}
+.mobile .activity a.button span.iconEdit:before {
+  content: "\f044";
+}
+.mobile .activity a.button span.iconDelete:before {
+  content: "\f00d";
+}
+.mobile .activity a.button span.match {
+  color: #52bad5;
+  font-weight: bold;
+}
+.mobile .activity .activity-player {
+  line-height: 32px;
+}
+.mobile .activity .activity-player .activity-player-name {
+  vertical-align: top;
+}
+.mobile .activity .activity-header:before {
+  background-image: url(../../img/arrow-left16x16.png);
+  background-size: 16px auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 2px 0;
+}
+.mobile .dataStore {
+  display: none;
+}
+.mobile .pull-right {
+  float: right;
+}
+.mobile .text-align-left {
+  text-align: left;
+}
+.mobile .pull-left {
+  float: left;
+}
+.mobile div[role=search] {
+  clear: both;
+  float: left;
+}
+.mobile .form-search {
+  position: relative;
+  float: left;
+  margin: 7px 0;
+  font-size: 12px;
+  width: 202px;
+  height: 26px;
+}
+.mobile .form-search button {
+  margin: 0px;
+  border: 0px;
+}
+.mobile .form-search .search-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: #444;
+  background-color: transparent;
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+  display: block;
+  width: 163px;
+  height: 14px;
+  padding: 6px 27px 6px 12px;
+  font-size: 12px;
+  line-height: 1;
+  color: #666;
+  background-color: #ccc;
+  border: 0;
+  border-radius: 13px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.mobile .form-search .icon {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(../../img/twitter_web_sprite_icons.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.mobile .form-search .search-icon {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.mobile .form-search .icon.nav-search-active:before {
+  font-family: FontAwesome;
+  content: "\f057";
+  position: absolute;
+  font-size: 16px;
+  right: 7px;
+  top: 6px;
+}
+.mobile .form-search .nav-search {
+  cursor: pointer;
+  width: 12px;
+  height: 14px;
+  background-position: -20px -710px;
+  margin-top: 7px;
+  margin-left: 7px;
+  background-color: transparent;
+}
+.mobile .form-search .search-hinting-input {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  color: #999;
+  direction: auto;
+  background-color: #ccc;
+}
+.mobile .mblDomButtonAppFavorites:before {
+  content: "\f005";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  padding: 10px;
+}
+.mobile .mblDomButtonAppHomeMenu:before {
+  content: "\f0ae";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  padding: 10px;
+}
+.mobile .mblDomButtonLogin:before {
+  content: "\f182\f183";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 22px;
+}
+.mobile .mblDomButtonRegister:before {
+  content: "\f00e";
+  color: #ccc;
+  font-family: "General Foundations";
+  font-size: 22px;
+}
+.mobile .mblDomButtonSettings:before {
+  content: "\f085";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 22px;
+}
+.mobile .mblDomButtonLogout:before {
+  content: "\f08e";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 22px;
+}
+.mobile .mblDomButtonProInfo:before {
+  content: "\f05a";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+}
+.mobile .mblDomButtonProActivity:before {
+  content: "\f18d";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+}
+.mobile .mblDomButtonProStats:before {
+  content: "\f012";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+}
+.mobile .mblDomButtonProNews:before {
+  content: "\f081";
+  color: #ccc;
+  font-family: "FontAwesome";
+  font-size: 16px;
+}
+.mobile .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.mobile label {
+  display: block;
+}
+.mobile input,
+.mobile textarea,
+.mobile select {
+  outline: 0;
+  clear: both;
+}
+.mobile label,
+.mobile input,
+.mobile select {
+  margin: 0px;
+}

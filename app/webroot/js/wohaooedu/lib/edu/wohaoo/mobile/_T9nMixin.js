@@ -1,0 +1,5 @@
+//>>built
+define("edu/wohaoo/mobile/_T9nMixin",["dojo/request","dojo/_base/declare","dijit/_WidgetBase","dijit/registry","dojo/domReady!"],function(h,f,g,k,l){var c=f([g],{ServiceUrl:"/translations/translate/",postCreate:function(){var a=Sys.getHttpScheme(),b=Sys.getHttpHost();a&&b&&(this.ServiceUrl=a+"://"+b+this.ServiceUrl);this.inherited(arguments)},translate:function(a,b,d){if(!d||"undefined"===typeof d)d="en";if(!a||"undefined"===typeof a)a=dojo.locale;if(d===a)return b;var c=b;if("object"===typeof TRANSLATIONS_DB&&
+"object"===typeof CryptoJS){var e=CryptoJS.MD5(b);if("object"===typeof TRANSLATIONS_DB[e]&&"undefined"!==typeof TRANSLATIONS_DB[e][a])return c=TRANSLATIONS_DB[e][a]}dojo.xhrPost({url:this.ServiceUrl,sync:!0,handleAs:"json",preventCache:!1,postData:{"data[Translation][t9n_orig_lang]":d,"data[Translation][t9n_orig_text]":b,"data[Translation][t9n_trans_lang]":a},load:function(a){c=a.trans_text?a.trans_text:b},error:function(a){}});return c}});c.prototype._S=new c;window.__t=function(a,b,d){return c.prototype.translate.call(c.prototype._S,
+b,a,d)};return c});
+//@ sourceMappingURL=_T9nMixin.js.map

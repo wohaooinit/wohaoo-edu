@@ -1,0 +1,15 @@
+
+[DONE]add module order
+[DONE]add youtube support in videos
+[DONE]correct curriculum enroll view
+[DONE]fix user signup view
+ [DONE] get the payment telephoner number and amount from DB
+ [DONE] module already taken should NOT be displayed again
+-update settings view: add first name, last name and birth date fields
+-make videos for each module and upload it to youtube
+-upload audios to audio hosting sties
+-test application with first curriculum
+-upload wohaooedu to some free cakephp hosting service
+-add subdomain edu.wohaoo.org to GoDaddy
+-test wohaooedu live
+-make wohaooedu promotion using email list

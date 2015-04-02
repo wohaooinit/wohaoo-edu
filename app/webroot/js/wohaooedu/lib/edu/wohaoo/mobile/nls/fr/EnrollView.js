@@ -1,0 +1,3 @@
+//>>built
+define("edu/wohaoo/mobile/nls/fr/EnrollView",{transactionCode:"Num\u00e9ro de la Transaction",enroll:"S'inscrire",logo:"WOHAOO Education",amount:"2500 FCFA",telephone:"661 002 213",desc:"Veuillez Effectuer un Transfert de Cr\u00e9dit d'un Montant Indiqu\u00e9 ci-dessous, et vers le Num\u00e9ro de T\u00e9l\u00e9phone Indiqu\u00e9 ci-dessous: Ensuite, cliquez sur le Bouton \x3cS'inscrire\x3e"});
+//@ sourceMappingURL=EnrollView.js.map

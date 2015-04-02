@@ -1,0 +1,428 @@
+.mobile .mblTabBar.homeMenu {
+  height: auto;
+}
+.mobile .activity .activity-icon:before {
+  background-image: url(.../../fonts/sprite_name-footnation_text-cdwjulke_size-22_color-ccc.png);
+  background-size: auto auto;
+  -webkit-background-size: auto auto;
+  background-repeat: no-repeat;
+  -webkit-background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -10px;
+  -webkit-background-position: 0px -10px;
+  width: 22px;
+  height: 22px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity .activity-icon.red:before {
+  background-image: url(.../../fonts/sprite_name-footnation_text-cdwjulke_size-22_color-f00.png);
+}
+.mobile .activity .activity-icon.yellow:before {
+  background-image: url(.../../fonts/sprite_name-footnation_text-cdwjulke_size-22_color-ff0.png);
+}
+.mobile .activity .activity-type-icon {
+  border-radius: 50%;
+  background-color: #E3EBF2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.mobile .activity .image-icon:before {
+  background-position: -2px -10px;
+}
+.mobile .activity .video-icon:before {
+  background-position: -32px -10px;
+}
+.mobile .activity .text-icon:before {
+  background-position: -62px -10px;
+}
+.mobile .activity .attempt-icon:before {
+  background-position: -90px -10px;
+}
+.mobile .activity .replacement-icon:before {
+  background-position: -120px -10px;
+  -webkit-background-position: -120px -10px;
+}
+.mobile .activity .goal-icon:before {
+  background-position: -149px -8px;
+  -webkit-background-position: -149px -8px;
+}
+.mobile .activity .top_catch-icon:before {
+  background-position: -178px -10px;
+}
+.mobile .activity .yellow-icon:before {
+  background-position: -206px -10px;
+  -webkit-background-position: -206px -10px;
+}
+.mobile .activity .red-icon:before {
+  background-position: -206px -10px;
+  -webkit-background-position: -206px -10px;
+}
+.mobile .activity .goal-type-icon:before {
+  background-image: url(.../../fonts/prite_name-footnation_text-rsmb_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -2px -6px;
+  width: 22px;
+  height: 22px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity .goal-lf-icon:before {
+  background-position: -2px -6px;
+}
+.mobile .activity .goal-rf-icon:before {
+  background-position: -32px -6px;
+}
+.mobile .activity .goal-hg-icon:before {
+  background-position: -62px -6px;
+}
+.mobile .activity .goal-bg-icon:before {
+  background-position: -92px -6px;
+}
+.mobile .activity .goal-distance:before {
+  background-image: url(.../../fonts/sprite_name-footnation_text-xa_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -2px -6px;
+  width: 22px;
+  height: 22px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity .goal-passer-player:before {
+  background-image: url(.../../fonts/sprite_name-footnation_text-xa_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -30px -6px;
+  width: 22px;
+  height: 22px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity .replacement-replaced-player:before {
+  background-image: url(.../../fonts/sprite_name-fontawesome_text-uf0a9_size-22_color-f00.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -8px;
+  width: 22px;
+  height: 25px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity a.button {
+  font-family: FontAwesome;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+  float: right;
+  margin-left: 10px;
+}
+.mobile .activity a.button span.iconEdit:before {
+  background-image: url(.../../fonts/sprite_name-fontawesome_text-uf044uf00d_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -7px;
+  width: 30px;
+  height: 23px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity a.button span.iconDelete:before {
+  background-image: url(.../../fonts/sprite_name-fontawesome_text-uf044uf00d_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -30px -8px;
+  width: 22px;
+  height: 22px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .activity a.button span.match {
+  color: #52bad5;
+  font-weight: bold;
+}
+.mobile .activity .activity-player {
+  line-height: 32px;
+}
+.mobile .activity .activity-player .activity-player-name {
+  vertical-align: top;
+}
+.mobile .activity .activity-header:before {
+  background-image: url(../../img/arrow-left16x16.png);
+  background-size: 16px auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 2px 0;
+}
+.mobile .dataStore {
+  display: none;
+}
+.mobile .pull-right {
+  float: right;
+}
+.mobile .text-align-left {
+  text-align: left;
+}
+.mobile .pull-left {
+  float: left;
+}
+.mobile div[role=search] {
+  clear: both;
+  float: left;
+}
+.mobile .form-search {
+  position: relative;
+  float: left;
+  margin: 7px 0;
+  font-size: 12px;
+  width: 202px;
+  height: 26px;
+}
+.mobile .form-search button {
+  margin: 0px;
+  border: 0px;
+}
+.mobile .form-search .search-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: #444;
+  background-color: transparent;
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+  display: block;
+  width: 163px;
+  height: 14px;
+  padding: 6px 27px 6px 12px;
+  font-size: 12px;
+  line-height: 1;
+  color: #666;
+  background-color: #ccc;
+  border: 0;
+  border-radius: 13px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.mobile .form-search .icon {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(../../img/twitter_web_sprite_icons.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.mobile .form-search .search-icon {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.mobile .form-search .icon.nav-search-active:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf057_size-16_color-000.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -8px;
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  font-size: 16px;
+  right: 7px;
+  top: 4px;
+}
+.mobile .form-search .nav-search {
+  cursor: pointer;
+  width: 12px;
+  height: 14px;
+  background-position: -20px -710px;
+  margin-top: 7px;
+  margin-left: 7px;
+  background-color: transparent;
+}
+.mobile .form-search .search-hinting-input {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  color: #999;
+  direction: auto;
+  background-color: #ccc;
+}
+.mobile .mblDomButtonAppFavorites:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081uf0ae_size-16_color-333.png);
+  -webkit-background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081uf0ae_size-16_color-333.png);
+  background-size: auto auto;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -2px;
+  -webkit-background-position: 0px -2px;
+  -moz-background-position: 0px -2px;
+  content: "";
+  height: 20px;
+  margin: 10px;
+  font-family: inherit;
+  display: inline-block;
+  position: relative;
+  top: -12px;
+}
+.mobile .mblDomButtonAppHomeMenu:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081uf0ae_size-16_color-333.png);
+  -webkit-background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081uf0ae_size-16_color-333.png);
+  background-size: auto auto;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -92px -10px;
+  -webkit-background-position: -92px -10px;
+  -moz-background-position: -92px -10px;
+  content: "";
+  height: 20px;
+  margin: 10px;
+  font-family: inherit;
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+.mobile .mblDomButtonLogin:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf182uf183uf0c0uf085uf08e_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0px -10px;
+  width: 38px;
+  height: 30px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonRegister:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf182uf183uf0c0uf085uf08e_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -39px -10px;
+  width: 32px;
+  height: 30px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonSettings:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf182uf183uf0c0uf085uf08e_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -69px -10px;
+  width: 31px;
+  height: 30px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonLogout:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf182uf183uf0c0uf085uf08e_size-22_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -100px -10px;
+  width: 30px;
+  height: 30px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonProInfo:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081_size-16_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -19px -10px;
+  width: 19px;
+  height: 20px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonProActivity:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081_size-16_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -38px -10px;
+  width: 15px;
+  height: 20px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonProStats:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081_size-16_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -53px -10px;
+  width: 21px;
+  height: 20px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .mblDomButtonProNews:before {
+  background-image: url(../../fonts/sprite_name-fontawesome_text-uf005uf05auf18duf012uf081_size-16_color-ccc.png);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: -74px -10px;
+  width: 18px;
+  height: 20px;
+  content: "";
+  font-family: inherit;
+  display: inline-block;
+}
+.mobile .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.mobile label {
+  display: block;
+}
+.mobile input,
+.mobile textarea,
+.mobile select {
+  outline: 0;
+  clear: both;
+}
+.mobile label,
+.mobile input,
+.mobile select {
+  margin: 0px;
+}

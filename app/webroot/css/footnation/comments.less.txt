@@ -1,0 +1,220 @@
+.comments{
+	.relative{
+		position: relative !important;
+	}
+	.inline-block{
+		display: inline-block !important;
+	}
+	
+	.block{
+		display: block !important;
+	}
+
+	.comments-timeline {
+		font-size: 15px;
+		
+		.pad-lr0 {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+		.pad-12 {
+			padding: 12px;
+		}
+		
+		.blob.date,  .blob.time {
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			background-color: #fff;
+		}
+		.blob {
+			width: 60px;
+			height: 60px;
+			display: inline-block;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+		.blob.blob2{
+			width: 70px;
+		}
+		
+		.blob.date, .blob.time{
+			font-size: 13px;
+		}
+		
+		.fwb {
+			font-weight: 700;
+		}
+		
+		.comment-header{
+			min-height: 16px;
+		}
+		
+		.comment-icon {
+			font-family: 'Foot Nation';
+			font-size: 30px;
+			font-weight: normal;
+		}
+		
+		.comment-type-icon {
+			border-radius: 50%;
+			background-color: #E3EBF2;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 50px;
+		}
+		
+		.image-icon:before{
+			content: "c";
+		}
+		
+		.video-icon:before{
+			content: "d";
+		}
+		
+		.text-icon:before{
+			content: "w";
+		}
+		
+		.attempt-icon:before{
+			content: "j";
+		}
+		
+		.replacement-icon:before{
+			content: "u";
+		}
+		
+		.goal-icon:before{
+			content: "l";
+		}
+		
+		.top_catch-icon:before{
+			content: "k";
+		}
+		
+		.yellow-icon:before{
+			content: "e";
+			color: yellow;
+		}
+		
+		.red-icon:before{
+			content: "e";
+			color: red;
+		}
+		
+		.goal-type-icon{
+			font-family: 'Foot Nation';
+			font-size: 22px;
+			font-weight: normal;
+		}
+		.goal-lf-icon:before{
+			content: "r";
+		}
+		
+		.goal-rf-icon:before{
+			content: "s";
+		}
+		
+		.goal-hg-icon:before{
+			content: "m";
+		}
+		
+		.goal-bg-icon:before{
+			content: "b";
+		}
+		
+		.goal-distance:before{
+			font-family: 'Foot Nation';
+			font-size: 22px;
+			font-weight: normal;
+			content: "x";
+		}
+		
+		.goal-passer-player:before{
+			font-family: 'Foot Nation';
+			font-size: 22px;
+			font-weight: normal;
+			content: "a";
+		}
+		.replacement-replaced-player:before{
+			font-family: FontAwesome;
+			font-size: 22px;
+			font-weight: normal;
+			color: red;
+			content: "\f0a9";
+			vertical-align: top;
+		}
+		
+		a.button{
+			font-family: FontAwesome;
+			font-weight: normal;
+			text-decoration: none;
+			color: #000;
+			float: right;
+			margin-left: 10px;
+			
+			span.iconEdit:before{
+				content: "\f044";
+			}
+		
+			span.iconDelete:before{
+				content: "\f00d";
+			}
+			
+			span.match{
+				color: #52bad5;
+				font-weight: bold;
+			}
+		}
+		.linear-list {
+			display: block;
+			height: 1px;
+			border: 0px;
+			border-bottom: 1px solid #e0e0e0;
+			margin: 0px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		
+		.comment-player{
+			line-height: 32px;
+			.comment-player-name{
+				vertical-align: top;
+			}
+		}
+		
+		.comment-content {
+			vertical-align: middle;
+			border: 2px solid #e0e0e0;
+			padding: 18px;
+			border-radius: 6px;
+			background-color: #fff;
+			width: 66.66666666666667%;
+			
+			.comment-player{
+				.comment-player-icon{
+					border-radius: 6px;
+					margin-right: 20px;
+				}
+			}
+		}
+		.comment-header:before {
+			background-image: url(/img/arrow-left16x16.png);
+			background-size: 16px auto;
+			background-repeat: no-repeat;
+			background-color: transparent;
+			background-position: 2px 0;
+		}
+
+	}
+	
+	.comments-timeline:before {
+		content: '';
+		position: absolute;
+		top: 72px;
+		bottom: 108px;
+		width: 2px;
+		background: #e0e0e0;
+		left: 125px;
+	}
+}

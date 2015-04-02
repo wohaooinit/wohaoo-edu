@@ -1,0 +1,118 @@
+<?php
+	class ProjectMonitorsController extends Controller {
+		public function members($project_id){
+			$project_members = $this->ProjectMember->find('all',
+								array(
+									'conditions' => array('ProjectMember.project_id' => $project_id),
+									'order' => array('ProjectMember.is_lead DESC')
+								)
+					);
+			if(!empty($this->request->params['requested']))
+				return $project_members;
+			$this->set('project_members', $project_members);
+		}
+
+		public function byUserId($user_id = 0){
+			$project_member = $this->ProjectMember->find('first',
+								array(
+									'conditions' => array(
+														'ProjectMember.project_id' => $project_id,
+														'ProjectMember.user_id' => $user_id
+													)
+								)
+					);
+			if(!empty($this->request->params['requested']))
+				return $project_member;
+			$this->set('project_member', $project_member);
+		}
+
+		public function delete($project_member_id = 0){
+			$this->log('/project_members/delete =>', 'debug');
+	
+			$error = '';
+			$this->viewClass = 'Json';
+			if(!$project_member_id && $this->request->data['ProjectMember']['id'])
+				$project_member_id = $this->request->data['ProjectMember']['id'];
+			if(!$project_member_id)
+				$error = 'project_member_id is invalid';
+			$this->log("project member id=${project_member_id}", 'debug');
+			if(!$error){
+				$this->log('ProjectMember id is valid', 'debug');
+				$this->log('Cheking if ProjectMember is lead ...', 'debug');
+				$this->ProjectMember->id = $project_member_id;
+				if($this->ProjectMember->read()){
+					$user_id = $this->ProjectMember->data['ProjectMember']['user_id'];
+					$project_id = $this->ProjectMember->data['ProjectMember']['project_id'];
+					$is_lead = $this->ProjectMember->data['ProjectMember']['is_lead'];
+					$this->log("ProjectMember found: user_id=${user_id}/project_id=${project_id}/is_lead=${is_lead}", 'debug');
+					if(!$is_lead){
+						$this->log('ProjectMember is NOT lead ...', 'debug');
+						$this->log('Deleting ProjectMember object ...', 'debug');
+						$conditions = array('ProjectMember.id' => $project_member_id);
+						if($this->ProjectMember->deleteAll($conditions))
+							$this->log('ProjectMember is deleted', 'debug');
+						else
+							$error = 'Unable to delete project member';
+					}else
+						$error = 'Cannot delete lead membership';
+				}else
+					$error = '';//Invalid Project Member data
+			}
+			if($error)
+				$this->log("Error:$error", 'debug');
+			$this->set('error', $error);
+			$this->set('_serialize', array('error'));
+	
+			$this->log('/project_members/delete <=', 'debug');
+		}
+
+		public function create($project_id = 0){
+			$this->log('/project_members/create =>', 'debug');
+			$error = '';
+			$this->viewClass = 'Json';
+			if(!$project_id)
+				$error = 'Project id is invalid';
+			if(!$error){
+				$this->log('Project id is valid ...', 'debug');
+				$this->log('Checking if user email is valid ...', 'debug');
+				if($this->request->data['ProjectMember']['email']){
+					$this->log('User email is valid', 'debug');
+					$email = $this->request->data['ProjectMember']['email'];
+					//check if email exists
+					$this->log('Checking if user email exists in database ...', 'debug');
+					$this->loadModel('User');
+					$user = $this->User->find('first', array('conditions' => array('User.email' => $email)));
+					if($user){
+						$this->log('User email exists ...', 'debug');
+						//check if user is not already member
+						$this->log('Checking if user is not already a member ...', 'debug');
+						$user_id = $user['User']['id'];
+						$member = $this->ProjectMember->find('first', 
+									array('conditions' => array( 'ProjectMember.project_id' => $project_id,
+											'ProjectMember.user_id' => $user_id)));
+						if(!$member){
+							$this->log('User is not already a member ...', 'debug');
+							//create new member
+							$this->log('Creating new member ...', 'debug');
+							$this->ProjectMember->create();
+							$data = array('user_id' => $user_id, 'project_id' => $project_id);
+							if($this->ProjectMember->save($data))
+								$this->log('ProjectMember object created', 'debug');
+							else
+								$error = 'ProjectMember created successfully';
+						}else
+							$error = 'User/Group is already a member';
+					}else
+						$error = 'Unkown user';
+				}else
+					$error = 'Invalid user email';
+			}
+			if($error)
+				$this->log("Error:$error", 'debug');
+			$this->set('error', $error);
+			$this->set('_serialize', array('error'));
+			$this->log('/project_members/create <=', 'debug');
+		}
+	
+	}
+?>

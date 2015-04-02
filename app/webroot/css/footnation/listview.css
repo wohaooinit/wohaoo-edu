@@ -1,0 +1,575 @@
+.dijitMenuPopup[dijitpopupparent^="listviewitem"] .dijitMenuItem a {
+  color: #737373;
+  text-decoration: none;
+}
+.dijitMenuPopup[dijitpopupparent^="listviewitem"] .dijitMenuItem.dijitHover a,
+.dijitMenuPopup[dijitpopupparent^="listviewitem"] .dijitMenuItem.dijitHover a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemIconCell {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemLabel span.caption {
+  float: left;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemLabel .filterItemContainer {
+  float: right;
+  margin-left: 10px;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemLabel .filterItemContainer .dijitTextBox {
+  border-radius: 8px;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemLabel .filterItemContainer span.dijitIconAdd:before {
+  content: "\f067";
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem .dijitMenuItemLabel .filterItemContainer .add.dijitButton .dijitButtonNode {
+  background-color: transparent;
+  background-image: none;
+  border: 0px;
+  padding-right: 0px;
+}
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem.dijitHover a,
+.dijitMenuPopup[dijitpopupparent="filterbutton"] .dijitMenuItem.dijitHover a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.dijitMenuPopup .dijitMenuTable.dijitMenu {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .dijitMenuTable {
+  padding: 0px;
+  margin: 0px;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .dijitMenuTable .dijitMenuItemIconCell {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .dijitMenuTable .dijitMenuItemLabel {
+  padding: 10px;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .dijitMenuTable .dijitMenuItemAccelKey {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .dijitMenuTable .dijitMenuArrowCell {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer {
+  margin: 0px;
+  padding: 10px;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer .folderitem-left {
+  float: left;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer .folderitem-left .captionTextBox {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer .folderitem-right {
+  float: right;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer .folderitem-right .dijitButton {
+  display: none;
+}
+.dijitMenuPopup[dijitpopupparent="movetofolderbutton"] .folderItemContainer .folderitem-right .size {
+  width: 13px;
+  height: 13px;
+  background-color: #000;
+  border-radius: 10px;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 5px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] {
+  width: 300px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .folderNameTextBox {
+  width: 60%;
+  margin: 5px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .folderDialogButtons {
+  padding: 10px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .folderDialogButtons .addNewFolderButton.dijitButton {
+  float: left;
+  margin-bottom: 10px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .folderDialogButtons .editFolderButton.dijitButton {
+  float: right;
+  margin-bottom: 10px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems {
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer:hover {
+  background-color: #08C;
+  color: #fff;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer {
+  margin: 0px;
+  padding: 10px;
+  height: 34px;
+  cursor: pointer;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-left {
+  float: left;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-left .captionTextBox {
+  display: none;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-right {
+  float: right;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-right .dijitButton {
+  display: none;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-right .delete {
+  float: left;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-right .edit {
+  float: left;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitTooltipDialog .dijitTooltipContainer .dijitTooltipContents .dijitContentPane.dialogContent .dijitContentPane.folderItems .folderItemContainer .folderitem-right .size {
+  width: 13px;
+  height: 13px;
+  background-color: #000;
+  border-radius: 10px;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 5px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .dijitMenuTable.folderItems {
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-border-radius: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .edit.dijitButton  .dijitButtonNode {
+  border: 0px;
+  background-image: none;
+  background-color: transparent;
+  height: 13px;
+  width: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .edit.dijitButton  .dijitButtonNode .dijitIcon {
+  font-family: FontAwesome;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .edit.dijitButton  .dijitButtonNode span.dijitIconEdit:before {
+  content: "\f044";
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .delete.dijitButton  .dijitButtonNode {
+  border: 0px;
+  background-image: none;
+  background-color: transparent;
+  height: 13px;
+  width: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .delete.dijitButton  .dijitButtonNode .dijitIcon {
+  font-family: FontAwesome;
+  font-weight: normal;
+  text-decoration: none;
+  color: #f00;
+}
+.dijitTooltipDialogPopup[dijitpopupparent="folderbutton_button"] .delete.dijitButton  .dijitButtonNode span.dijitIconDelete:before {
+  content: "\f00d";
+}
+.listview {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  line-height: normal;
+  color: #595959;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.listview .stickerContainer .stickerItemContainer {
+  display: inline-block;
+}
+.listview .stickerContainer .stickerItemContainer .delete.dijitButton {
+  position: relative;
+  top: 35px;
+  left: -5px;
+}
+.listview .stickerContainer .stickerItemContainer .delete.dijitButton .dijitButtonNode {
+  background-color: transparent;
+  background-image: none;
+  border: 0px;
+}
+.listview .stickerContainer .stickerItemContainer .delete.dijitButton.dijitHover .dijitIconDelete {
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+.listview .stickerContainer .stickerItemContainer .stickerContent {
+  border: 6px solid #52bad5;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 20px;
+  background-color: #52bad5;
+  text-decoration: none;
+}
+.listview .stickerContainer .stickerItemContainer .stickerContent span {
+  background-color: transparent;
+  background-image: none;
+}
+.listview .dataStore {
+  display: none;
+}
+.listview .folderButtonDialog {
+  display: inline;
+}
+.listview table {
+  width: auto;
+}
+.listview .header {
+  margin-top: 1.875em;
+  margin-bottom: 2.5625em;
+  position: relative;
+  z-index: 5;
+}
+.listview div,
+.listview input,
+.listview span,
+.listview object,
+.listview iframe,
+.listview h1,
+.listview h2,
+.listview h3,
+.listview h4,
+.listview h5,
+.listview h6,
+.listview p,
+.listview blockquote,
+.listview pre,
+.listview a,
+.listview abbr,
+.listview acronym,
+.listview address,
+.listview code,
+.listview del,
+.listview dfn,
+.listview em,
+.listview img,
+.listview q,
+.listview dl,
+.listview dt,
+.listview dd,
+.listview ol,
+.listview ul,
+.listview li,
+.listview fieldset,
+.listview form,
+.listview label,
+.listview legend,
+.listview textarea,
+.listview table,
+.listview caption,
+.listview tbody,
+.listview tfoot,
+.listview thead,
+.listview tr,
+.listview th,
+.listview td {
+  clear: both;
+  float: none;
+  box-sizing: initial;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  line-height: 1.5em;
+}
+.listview label,
+.listview input,
+.listview select,
+.listview textarea {
+  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+}
+.listview .float-left {
+  float: left;
+}
+.listview .size1of1 {
+  width: 100%;
+}
+.listview .size3of4 {
+  width: 75%;
+}
+.listview .size5of8 {
+  width: 62.5%;
+}
+.listview .header .listview-actions {
+  float: right;
+  display: inline-block;
+  margin: 3px 0 0 15px;
+}
+.listview .unit {
+  clear: none;
+  overflow: hidden;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.listview h1 {
+  font-size: 300%;
+}
+.listview h1,
+.listview .h1,
+.listview h2,
+.listview .h2,
+.listview h3,
+.listview .h3,
+.listview h4,
+.listview .h4 {
+  background: transparent;
+  font-weight: bold;
+  color: #595959;
+  font-family: "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+}
+.listview h1 a,
+.listview .h1 a,
+.listview h2 a,
+.listview .h2 a,
+.listview h3 a,
+.listview .h3 a,
+.listview h4 a,
+.listview .h4 a,
+.listview h1 a:visited,
+.listview .h1 a:visited,
+.listview h2 a:visited,
+.listview .h2 a:visited,
+.listview h3 a:visited,
+.listview .h3 a:visited,
+.listview h4 a:visited,
+.listview .h4 a:visited {
+  color: #52bad5;
+}
+.listview a,
+.listview a:visited {
+  text-decoration: none;
+}
+.listview .meta {
+  padding: 0;
+  width: 75%;
+}
+.listview .meta .dijitCheckBox {
+  float: left;
+  margin: 6px 30px 0 0;
+  position: relative;
+  z-index: 1;
+}
+.listview .meta h4,
+.listview .meta p {
+  padding-left: 122px;
+}
+.listview .meta h4 {
+  font-size: 1.2em;
+  line-height: 1.6666666666666667em;
+  margin: 0;
+}
+.listview .meta p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+.listview .meta span.listview-item-status-icon {
+  float: left;
+  display: block;
+  clear: none;
+  width: 84px;
+}
+.listview .meta div.listview-item-content {
+  float: left;
+  overflow: hidden;
+  clear: none;
+}
+.listview .size3of8 {
+  width: 37.5%;
+}
+.listview .dim-el {
+  opacity: .8;
+}
+.listview .listview-item-contaier li {
+  clear: none;
+}
+.listview h4.listview-item-header {
+  clear: none;
+}
+.listview .lastUnit.header {
+  display: block;
+  padding-right: 0px;
+}
+.listview .lastUnit {
+  display: inline-block;
+  overflow: hidden;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+  float: none;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.listview div.button-bar .unit.lastUnit {
+  overflow: visible;
+}
+.listview div.button-bar .button {
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+}
+.listview .dijitComboButton.p0 a,
+.listview .dijitComboButton.listview-item-actions a {
+  color: #fff;
+}
+.listview .section {
+  margin-bottom: 10px;
+}
+.listview .content .dijitContentPane {
+  padding: 0px;
+}
+.listview .listview-stats {
+  display: inline !important;
+}
+.listview h4.listview-item-header {
+  font-size: 18px !important;
+  color: #52BAD5 !important;
+}
+.listview .itemContainer>ul > li:first-child {
+  border-top: 1px solid #E0E0E0;
+}
+.listview .itemContainer>ul > li {
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 11px;
+}
+.listview .lastGroup {
+  float: none;
+  width: auto;
+}
+.listview .selfclear:before,
+.listview .selfclear:after {
+  content: " ";
+  display: table;
+}
+.listview .selfclear:after {
+  clear: both;
+}
+.listview .data {
+  text-align: left;
+  padding-left: 18px;
+}
+.listview .data h4,
+.listview .data p {
+  padding-left: 0;
+}
+.listview .inline-block {
+  display: inline-block !important;
+}
+.listview .float-left {
+  float: left;
+}
+.listview .meta-actions {
+  padding: 6px 0 0;
+  text-align: right;
+}
+.listview .size1of4 {
+  width: 25%;
+}
+.listview .size5of6 {
+  width: 83%;
+}
+.listview .size1of6 {
+  width: 17%;
+}
+.listview .section:before,
+.listview .section:after {
+  content: " ";
+  display: table;
+}
+.listview .hidden {
+  display: none;
+}
+.listview .paging {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 1px;
+  float: left;
+  font-size: 11px;
+  padding-bottom: 1px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.listview .paging span.selected.page {
+  padding: 3px 7px;
+  background: #3a3a3a url(/img/big-btn-bg.png) repeat-x top left;
+  color: #dedede;
+  border: #1a1a1a 1px solid;
+  text-shadow: #1a1a1a 0px -1px 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.listview .paging span.page,
+.listview .paging span.next {
+  padding: 3px 7px;
+  background: #eeeeee url(/img/big-btn-bg.png) repeat-x top left;
+  color: #222;
+  border: #888 1px solid;
+  text-shadow: #fff 0px 1px 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.listview .paging span.page a,
+.listview .paging span.page a:hover,
+.listview .paging span.next a,
+.listview .paging span.next a:hover {
+  color: #222;
+  text-transform: none;
+}

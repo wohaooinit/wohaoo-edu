@@ -1,0 +1,33 @@
+<div class="signupContainer">
+	<div id="signupDialog" class="signupDialog">
+		<div class="signupHeaderPane">
+			<span class="company-logo center">${logoText}</span>
+		</div>
+		<div data-dojo-type="dojox/mobile/ContentPane" class="signupPane mblHidden" data-dojo-attach-point="signupPane">
+			<div class="firstNameInputPane">
+				<input class='firstNameInput'  type='text'
+				  data-dojo-props='name:"data[Person][per_first_name]", value:"", textDir:"ltr"'
+				  placeholder="${firstNameText}" data-dojo-type="dojox/mobile/TextBox" data-dojo-attach-point="firstName"/>
+			</div>
+			<div class="lastNameInputPane">
+				<input class='lastNameInput'  type='text'
+				  data-dojo-props='name:"data[Person][per_last_name]", value:"", textDir:"ltr"'
+				  placeholder="${lastNameText}" data-dojo-type="dojox/mobile/TextBox" data-dojo-attach-point="lastName"/>
+			</div>  
+			<div class="telInputPane">
+				<input class='telInput'  type='text'
+				  data-dojo-props='name:"data[User][usr_telephone]", value:"", textDir:"ltr"'
+				  placeholder="${telephoneText}" data-dojo-type="dojox/mobile/TextBox" data-dojo-attach-point="telephone"/>
+			</div> 
+			<div class="passwordInputPane">
+				<input class='passwordInput' placeholder="${passwordText}" 
+							data-dojo-props='name:"data[User][usr_password]", value:"", textDir:"ltr"'
+							data-dojo-type="dojox/mobile/TextBox" type="text" data-dojo-attach-point="password"/>
+			</div>
+			<div class="signupButtonPane">
+				<button  class='signupButton'
+				data-dojo-type="dojox/mobile/Button" data-dojo-attach-point="signupButton">${signupText}</button>
+			</div> 
+		</div>
+	</div>
+</div>

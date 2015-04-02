@@ -1,0 +1,2183 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-03-03 08:30+0100\n"
+"PO-Revision-Date: 2014-03-06 09:23+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Console/Command/Task/ImportRobotTask.php:64
+msgid "Try out only. no data saved."
+msgstr "Aucune donnée n'a été sauveguardée"
+
+#: Console/Command/Task/ImportRobotTask.php:107
+msgid "Pro full name is undefined"
+msgstr "Le nom complet du joueur n'est pas défini "
+
+#: Console/Command/Task/ImportRobotTask.php:127
+msgid "Image data could not be loaded"
+msgstr "l'image ne peut être chargée"
+
+#: Console/Command/Task/ImportRobotTask.php:147
+msgid "Image could be created"
+msgstr "l'image ne peut être crééer"
+
+#: Console/Command/Task/ImportRobotTask.php:169
+msgid "Person data could not be saved"
+msgstr "Les données personnelles ne peuvent être sauveguardées"
+
+#: Console/Command/Task/ImportRobotTask.php:190
+msgid "Pro data could not be saved"
+msgstr "les données du joueur ne peuvent être sauveguardées"
+
+#: Console/Command/Task/ImportRobotTask.php:206
+msgid "Please enter "
+msgstr "Veuillez saisir"
+
+#: Console/Command/Task/RankingGeneratorTask.php:22
+msgid "The List of Players cannot be empty"
+msgstr "La liste des joueurs ne peut être vide"
+
+#: Console/Command/Task/RankingGeneratorTask.php:51;85
+#: Console/Command/Task/ValueGeneratorTask.php:98
+msgid "Unable to save Pro data"
+msgstr "la sauveguarde des données du joueur a échoué"
+
+#: Console/Command/Task/RankingGeneratorTask.php:66;100
+#: Console/Command/Task/ValueGeneratorTask.php:113
+#: Controller/AttributesController.php:330
+msgid "Failed to update attribute (%s) with value (%s)"
+msgstr "la mise à jour de la propriété (%s) par la valeur (%s) a échoué"
+
+#: Console/Command/Task/ValueGeneratorTask.php:34
+msgid "The List of Index Players MUST be equal to 4"
+msgstr "Le nombre de joueurs faisan partie de l'INDEX DOIT être éguale à 4"
+
+#: Console/Command/Task/ValueGeneratorTask.php:65
+msgid "Two or more index participants are strongly correlated"
+msgstr "deux au moins des participants de l'INDEX sont beaucoup trop correlés"
+
+#: Console/Command/Task/ValueGeneratorTask.php:72
+msgid "No player was found"
+msgstr "Aucun joueur n'a été trouvé"
+
+#: Controller/AttributesController.php:50
+msgid "Invalid Attribute"
+msgstr "Propriété invalide"
+
+#: Controller/AttributesController.php:61
+msgid "Attribute cannt be edited"
+msgstr "La propriété ne peut être mise à jour"
+
+#: Controller/AttributesController.php:71
+msgid ""
+"The maximum number of revisions has been reached. Please, contact the site "
+"administrator"
+msgstr ""
+"Le nombre maximum de révisions a été atteint. Veuillez contacter "
+"l'administrateur système"
+
+#: Controller/AttributesController.php:96;101;106
+msgid "Security Error: invalid data"
+msgstr "Erreur de sécurité: données erronées"
+
+#: Controller/AttributesController.php:110
+msgid "The Attribute could not be saved. Please, try again."
+msgstr "La propriété ne peut être mise à jour. Veuilez essayer à nouveau."
+
+#: Controller/AttributesController.php:136
+msgid ""
+"The Attribute has been saved. You have  %s possible revisions remaining."
+msgstr ""
+"La propriété a été mise à jour. Vous avez encore %s révisions possibles"
+
+#: Controller/AttributesController.php:203
+msgid "Only requested action are accepted"
+msgstr "Seules les appels internes sont permis"
+
+#: Controller/AttributesController.php:208;294;351
+msgid "Invalid arguments"
+msgstr "Arguments invalides"
+
+#: Controller/AttributesController.php:265
+msgid "Unable to save attribute data"
+msgstr "La sauveguarde de la propriété a échoué"
+
+#: Controller/ChampionshipClubsController.php:60;90
+msgid "The Championship Club has been saved"
+msgstr "Le club compétiteur a été sauveguardé avec succès"
+
+#: Controller/ChampionshipClubsController.php:64;94
+msgid "The Championship Club could not be saved. Please, try again."
+msgstr ""
+"Le club compétiteur n'a pas pu être sauveguardé. Veuillez rééssayer "
+"ultérieurement."
+
+#: Controller/ChampionshipClubsController.php:85;109
+msgid "Invalid Championship Club"
+msgstr "Les données du club compétiteur sont invalides"
+
+#: Controller/ChampionshipClubsController.php:113
+msgid "Championship Club is deleted"
+msgstr "Le club compétiteur a été supprimé avec succès"
+
+#: Controller/ChampionshipClubsController.php:115
+msgid "Championship Club was not deleted"
+msgstr "Le club compétiteur n'a pas pu être supprimé"
+
+#: Controller/ChampionshipYearsController.php:216
+msgid "Invalid Championship Year"
+msgstr "Le tournoi est invalide"
+
+#: Controller/ChampionshipYearsController.php:255;305
+msgid "Championship  Year start date is not defined"
+msgstr "La date de début du tournoi n'est pas définie "
+
+#: Controller/ChampionshipYearsController.php:265;315
+msgid "Championship Tear end date is not defined"
+msgstr "La date de fin du tournoi n'est pas définie"
+
+#: Controller/ChampionshipYearsController.php:274;323
+msgid "The Championship Year has been saved"
+msgstr "Les données du tournoi ont été sauveguardées"
+
+#: Controller/ChampionshipYearsController.php:278;327
+msgid "The Championship Year could not be saved. Please, try again."
+msgstr "Les données du tournoi n'ont pas pu être sauveguardées"
+
+#: Controller/ChampionshipYearsController.php:299;342
+msgid "Invalid ChampionshipYear"
+msgstr "Les données du Tournoi sont invalides"
+
+#: Controller/ChampionshipYearsController.php:346
+msgid "Championship Year is deleted"
+msgstr "Le Tournoi a été supprimé"
+
+#: Controller/ChampionshipYearsController.php:348
+msgid "Championship Year was not deleted"
+msgstr "Le Tournoi n'a pas pu être supprimé"
+
+#: Controller/ChampionshipYearsController.php:516
+#: Controller/MatchesController.php:656 Controller/ProsController.php:693
+msgid "m"
+msgstr "m"
+
+#: Controller/ChampionshipsController.php:186;244;275
+msgid "Invalid Championship"
+msgstr "Les données du Championat sont invalides"
+
+#: Controller/ChampionshipsController.php:214;250
+msgid "Championship founded date is not defined"
+msgstr "La date de création du Championat n'est pas définie"
+
+#: Controller/ChampionshipsController.php:222;259
+msgid "The Championship has been saved"
+msgstr "Les données du Championat ont été sauveguardées"
+
+#: Controller/ChampionshipsController.php:225;262
+msgid "The Championship could not be saved. Please, try again."
+msgstr "Le Championat n'a pas pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/ChampionshipsController.php:279
+msgid "Championship is deleted"
+msgstr "Le Championat est maintenant supprimé"
+
+#: Controller/ChampionshipsController.php:282
+msgid "Championship was not deleted"
+msgstr "Le Championat n'a pas pu être supprimé"
+
+#: Controller/ClubsController.php:157;217;249
+msgid "Invalid Club"
+msgstr "Club invalide"
+
+#: Controller/ClubsController.php:186;224
+msgid "Club founding date is not defined"
+msgstr "La date de création du Club n'est pas définie"
+
+#: Controller/ClubsController.php:195;233
+msgid "The Club has been saved"
+msgstr "Le Club a été sauveguardé"
+
+#: Controller/ClubsController.php:198;236
+msgid "The Club could not be saved. Please, try again."
+msgstr "Le CLub n'a pas pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/ClubsController.php:253
+msgid "Club is deleted"
+msgstr "Le Club a été supprimé"
+
+#: Controller/ClubsController.php:256
+msgid "Club was not deleted"
+msgstr "Le Club n'a pas pu être supprimé"
+
+#: Controller/CommentsController.php:97;156
+msgid "The Comment has been saved"
+msgstr "Le commentaire a été sauveguardé"
+
+#: Controller/CommentsController.php:99;160
+msgid "The Comment could not be saved. Please, try again."
+msgstr ""
+"Le commentaire n'a pas pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/CommentsController.php:151;177;191;221
+msgid "Invalid Comment"
+msgstr "Commentaire invalide"
+
+#: Controller/CommentsController.php:181
+msgid "Comment is deleted"
+msgstr "Le commentaire est maintenant supprimé"
+
+#: Controller/CommentsController.php:183
+msgid "Comment was not deleted"
+msgstr "Le commentaire n'a pas pu être supprimé"
+
+#: Controller/CommentsController.php:198
+#: Controller/PersonVideosController.php:27
+msgid "Invalid Video"
+msgstr "Video invalide"
+
+#: Controller/CommentsController.php:211
+msgid "The Person Video has been saved"
+msgstr "La vidéo personnelle a été sauveguardée avec succès"
+
+#: Controller/CommentsController.php:228
+#: Controller/PersonImagesController.php:27
+msgid "Invalid Image"
+msgstr "Image invalide"
+
+#: Controller/CommentsController.php:242
+msgid "The Person Image has been saved"
+msgstr "L'image personnelle a été sauveguardée avec succès"
+
+#: Controller/CommentsController.php:271
+msgid "The Attempt could not be saved. Please, try again."
+msgstr ""
+"La temptative de but n'a pas pu être enregistrée. Veuillez réessayer "
+"ultérieurement."
+
+#: Controller/CommentsController.php:299
+msgid "The Goal could not be saved. Please, try again."
+msgstr ""
+"Le but n'a pas pu être sauveguarder. Veuillez réessayer ultérieurement."
+
+#: Controller/CommentsController.php:332
+msgid "The Replaced player id is not valid."
+msgstr "Le joueur sortant n'est pas indiqué."
+
+#: Controller/CommentsController.php:336
+msgid "The Replacing Player data could not be saved. Please, try again."
+msgstr ""
+"Les données du joueur entrant n'ont pas pu être enregistrée. Veuillez "
+"réessayer à nouveau."
+
+#: Controller/CommentsController.php:341;405
+msgid "The Exiting player id is not valid."
+msgstr "Le joueur sortant n'est pas valide"
+
+#: Controller/CommentsController.php:345
+msgid "The Replaced Player  data could not be saved. Please, try again."
+msgstr ""
+"Les données du joueur sortant n'ont pas pu être sauveguardées. Veuillez "
+"réessayer à nouveau."
+
+#: Controller/CommentsController.php:349
+msgid "The Replacement could not be saved. Please, try again."
+msgstr ""
+"L'opération de remplacement n'a pas pu être enregistrée. Veuillez essayer à "
+"nouveau."
+
+#: Controller/CommentsController.php:376
+msgid "The TopCatch could not be saved. Please, try again."
+msgstr ""
+"L'arrèt du guardien n'a pa pu être enregistrée. Veuillez essayer à nouveau."
+
+#: Controller/CommentsController.php:409
+msgid "The Exiting Player  data could not be saved. Please, try again."
+msgstr ""
+"Les données du joueur sortant n'ont pas pu être sauveguardées. Veuiilez "
+"essayer à nouveau."
+
+#: Controller/CommentsController.php:412
+msgid "The Sanction could not be saved. Please, try again."
+msgstr "La sanction n'a pas pu être enregistrée. Veuillez essayer à nouveau."
+
+#: Controller/ImagesController.php:103
+msgid "No image resource found in request"
+msgstr "Aucune données d'image n'est présente dans la requète de service"
+
+#: Controller/ImagesController.php:108 Controller/VideosController.php:134
+msgid "Upload failed due to internal Server error"
+msgstr ""
+"L'opération de téléchargement vers le serveur a échoué due à une erreur "
+"interne"
+
+#: Controller/ImagesController.php:121 Controller/VideosController.php:146
+msgid "Invalid tmp file"
+msgstr "fichier temporaire invalide"
+
+#: Controller/ImagesController.php:125
+msgid "Image file is too large"
+msgstr "le fichier image est beaucoup trop large"
+
+#: Controller/ImagesController.php:137 Controller/VideosController.php:156
+msgid "Unable to encode the uploaded file "
+msgstr "Impossible d'enccoder le fichier reçu par le serveur"
+
+#: Controller/ImagesController.php:149
+msgid "Unable to save the image data"
+msgstr "Impossible de sauveguarder le fichier image"
+
+#: Controller/ImagesController.php:153
+msgid "Image has been successfully uploaded"
+msgstr "l'image a été téléchargée avec succès"
+
+#: Controller/MatchesController.php:259;440;510
+msgid "Invalid Match"
+msgstr "les données du Match sont invalides"
+
+#: Controller/MatchesController.php:321
+msgid "Host or Guest Club not defined"
+msgstr "Le club recevant ou visiteur n'est pas défini"
+
+#: Controller/MatchesController.php:327
+msgid "Host Club not found in championship"
+msgstr "Le club receveur n'est pas enregistré dans ce Championat"
+
+#: Controller/MatchesController.php:334
+msgid "Guest Club not found in championship"
+msgstr "Le club visiteur n'est pas enregistré dans ce Championat"
+
+#: Controller/MatchesController.php:342;447
+msgid "Match start date is not defined"
+msgstr "La date de début du Match n'est pas définie"
+
+#: Controller/MatchesController.php:361;465
+msgid "Match end date is not defined"
+msgstr "La date de fin du Match n'est pas définie"
+
+#: Controller/MatchesController.php:378;406;485
+msgid "The Match could not be saved. Please, try again."
+msgstr ""
+"Les données du Match ne peuvent être sauveguardées. Veuillez essayer à "
+"nouveau."
+
+#: Controller/MatchesController.php:388;397
+msgid "Unable to save Team data"
+msgstr "Impossible de sauveguarder les données de l'Equipe"
+
+#: Controller/MatchesController.php:411;481
+msgid "The Match has been saved"
+msgstr "Les données ud Match ont été sauveguadées avec succès"
+
+#: Controller/MatchesController.php:514
+msgid "Match is deleted"
+msgstr "Le Match a été supprimé"
+
+#: Controller/MatchesController.php:516
+msgid "Match was not deleted"
+msgstr "Le Match n'a pas pu être supprimé"
+
+#: Controller/ModelFoldersController.php:88;126
+msgid "The ModelFolder has been saved"
+msgstr "Le Dossier n'a pas pu être sauveguardé."
+
+#: Controller/ModelFoldersController.php:91;128
+msgid "The ModelFolder could not be saved. Please, try again."
+msgstr "Le Dossier n'a pas pu être sauveguardé. Veuiilez essayer à nouveau."
+
+#: Controller/ModelFoldersController.php:120;154
+msgid "Invalid ModelFolder"
+msgstr "Dossier invalide"
+
+#: Controller/ModelFoldersController.php:161
+msgid "ModelFolder is deleted"
+msgstr "Le Dossier est supprimé"
+
+#: Controller/ObjectFoldersController.php:42
+msgid "The Object Folder has been saved"
+msgstr "L'élément de Dossier a été sauveguardé avec succès."
+
+#: Controller/ObjectFoldersController.php:45
+msgid "The Object Folder could not be saved. Please, try again."
+msgstr ""
+"L'élément de Dossier n'a pas pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/PeopleController.php:120;176;217
+#: Controller/PersonImagesController.php:39
+#: Controller/PersonVideosController.php:39
+msgid "Invalid Person"
+msgstr "Les données personnelles sont invalides"
+
+#: Controller/PeopleController.php:143;184
+msgid "Person birth date is not defined"
+msgstr "La date de naissance n'est pas valide"
+
+#: Controller/PeopleController.php:152;193
+msgid "The Person has been saved"
+msgstr "Les données personnelles ont été sauveguardées avec succès."
+
+#: Controller/PeopleController.php:156;199
+msgid "The Person could not be saved. Please, try again."
+msgstr "Les données personnelles n'ont pas pu être sauveguardées"
+
+#: Controller/PeopleController.php:223
+msgid "Person is deleted"
+msgstr "La personne a été supprimée"
+
+#: Controller/PersonImagesController.php:21
+msgid "Image is not defined"
+msgstr "Les données image ont été supprimées"
+
+#: Controller/PersonImagesController.php:33
+#: Controller/PersonVideosController.php:33
+msgid "Person is not defined"
+msgstr "La personne n'est pas définie"
+
+#: Controller/PersonImagesController.php:46
+msgid "Unable to save new PersonImage"
+msgstr "Impossible de sauveguarder les données image de la personne"
+
+#: Controller/PersonImagesController.php:49
+msgid "The new Person Image has been saved"
+msgstr "Les données image de la personne ont été sauveguardées"
+
+#: Controller/PersonImagesController.php:75
+msgid "Invalid Person Image"
+msgstr "Les données image de la personne sont invalides"
+
+#: Controller/PersonImagesController.php:80
+msgid "Person Image is deleted"
+msgstr "Les données images de la personne ont été supprimées"
+
+#: Controller/PersonVideosController.php:21
+msgid "Video is not defined"
+msgstr "La vidéo n'est pas définie"
+
+#: Controller/PersonVideosController.php:46
+msgid "Unable to save new PersonVideo"
+msgstr "Impossible de sauveguarder les données vidéo de la Personne"
+
+#: Controller/PersonVideosController.php:49
+msgid "The new Person Video has been saved"
+msgstr "Les données vidéo ont été sauveguardées avec succès"
+
+#: Controller/PersonVideosController.php:75
+msgid "Invalid Person Video"
+msgstr "Les données vidéo sont invalides"
+
+#: Controller/PersonVideosController.php:80
+msgid "Person Video is deleted"
+msgstr "Les données vidéo ont été supprimées"
+
+#: Controller/PlayersController.php:146;197;225
+msgid "Invalid Player"
+msgstr "Les données du joueur sont invalides"
+
+#: Controller/PlayersController.php:169;202
+msgid "The Player has been saved"
+msgstr "Les données du joueur ont été sauveguardées avec succès"
+
+#: Controller/PlayersController.php:173;208
+msgid "The Player could not be saved. Please, try again."
+msgstr ""
+"Les données du joueur n'ont pu être sauveguardées. Veuillez essayer à "
+"nouveau."
+
+#: Controller/PlayersController.php:231
+msgid "Player is deleted"
+msgstr "Le joueur a été supprimé"
+
+#: Controller/ProsController.php:298;430;483
+msgid "Invalid Pro"
+msgstr "Les données du joueur sont invalides"
+
+#: Controller/ProsController.php:383;437
+msgid "Pro from date is not defined"
+msgstr "La date de début de contrat du joueur n'est pas définie"
+
+#: Controller/ProsController.php:395;449
+msgid "Bad Pro until date"
+msgstr "La date de fin de contrat du joueur est erronée"
+
+#: Controller/ProsController.php:406;460
+msgid "The Pro has been saved"
+msgstr "Les données du joueur ont été sauveguardées avec succès"
+
+#: Controller/ProsController.php:410;466
+msgid "The Pro could not be saved. Please, try again."
+msgstr "Les données du joueur n'ont pu être sauveguardées"
+
+#: Controller/ProsController.php:489
+msgid "Pro is deleted"
+msgstr "Le joueur a été supprimé"
+
+#: Controller/StadiaController.php:107
+msgid "Invalid Stadium"
+msgstr "Les données du Stade sont invalides"
+
+#: Controller/StadiaController.php:118;163
+msgid "Stadium built is not defined"
+msgstr "La date de construction du stade est invalide"
+
+#: Controller/StadiaController.php:128;173
+msgid "Stadium opened is not defined"
+msgstr "La date d'ouverture du stade est invalide"
+
+#: Controller/StadiaController.php:137;182
+msgid "The stadium has been saved"
+msgstr "Les données du stade ont été sauveguardées avec succès"
+
+#: Controller/StadiaController.php:140;185
+msgid "The stadium could not be saved. Please, try again."
+msgstr ""
+"Les données du stade n'ont pu être sauveguardées. Veuillez essayer à nouveau."
+
+#: Controller/StadiaController.php:157;196
+msgid "Invalid stadium"
+msgstr "Les données du Stade sont invalide"
+
+#: Controller/StadiaController.php:200
+msgid "Stadium is deleted"
+msgstr "Les données du Stade ont été supprimées"
+
+#: Controller/StadiaController.php:203
+msgid "Stadium was not deleted"
+msgstr "Les données du Stade n'ont pu être supprimées"
+
+#: Controller/UserRolesController.php:75
+msgid "Group does not exists"
+msgstr "Le groupe existe déjà"
+
+#: Controller/UserRolesController.php:84
+msgid "The selected user has already been assigned the specified role"
+msgstr "L'utilisateur sélectioné a déjà été assicigné le code indiqué"
+
+#: Controller/UserRolesController.php:91
+msgid "The user role could not be saved. Please, try again."
+msgstr ""
+"le role utilisateur n'a pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/UserRolesController.php:111
+msgid "Group Member could not be saved"
+msgstr "Le membre du Groupe n'a pu être sauveguardé"
+
+#: Controller/UserRolesController.php:128
+msgid "The new role has been saved"
+msgstr "Le nouveau role utilisateur n'a pu être sauveguardé."
+
+#: Controller/UserRolesController.php:150
+msgid "Invalid user role"
+msgstr "Le role utilisateur est invalide"
+
+#: Controller/UserRolesController.php:159
+msgid "User role was not deleted"
+msgstr "le role utilisateur n'a pas pu être supprimé"
+
+#: Controller/UserRolesController.php:172
+msgid "The Group Member cannot be deleted"
+msgstr "le membre du groupe n'a pu être supprimé"
+
+#: Controller/UserRolesController.php:176
+msgid "User role deleted"
+msgstr "le role utilisateur a été supprimé"
+
+#: Controller/UsersController.php:37
+msgid "Invalid User"
+msgstr "l'utilisateur est invalide"
+
+#: Controller/UsersController.php:99
+msgid "Invalid username or password, try again"
+msgstr ""
+"le nom ou le mot de passe utilisateir est invalide. Veuillez essayer à "
+"nouveau. "
+
+#: Controller/UsersController.php:159;364;457;508;558
+msgid "Invalid user"
+msgstr "Utilisateur invalide"
+
+#: Controller/UsersController.php:186
+msgid "User password cannot be empty!"
+msgstr "Le mot de passe ne peut être vide"
+
+#: Controller/UsersController.php:190;379;469
+msgid "User passwords don't match!"
+msgstr "Les mots de passe ne se correspondent pas"
+
+#: Controller/UsersController.php:199
+msgid "User email cannot be empty!"
+msgstr "l'adresse email ne peut être laissée vide"
+
+#: Controller/UsersController.php:204
+msgid "User email is already in use!"
+msgstr "l'adresse email est déjà utilisée par un autre utilisateur"
+
+#: Controller/UsersController.php:226
+msgid "The user could not be created. Please, try again."
+msgstr "le nouvel utilisateur n'a pu être créé. Veuillez essayer à nouveau."
+
+#: Controller/UsersController.php:237;433
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+"le nouvel utilisateur n'a pu être sauveguardé. Veuillez essayer à nouveau."
+
+#: Controller/UsersController.php:260
+msgid "Bad birth date"
+msgstr "La date de naissance est invalide"
+
+#: Controller/UsersController.php:278;388
+msgid "The selected country does not exist"
+msgstr "Le pays sélectioné n'existe pas"
+
+#: Controller/UsersController.php:289;397
+msgid "The selected region does not exist"
+msgstr "La région sélectionnée n'existe pas"
+
+#: Controller/UsersController.php:301
+msgid "The personnal data of the user could not be saved. Please, try again."
+msgstr ""
+"Les données personnelles de l'utilisateur n'ont pu être sauveguardées. "
+"Veuillez essayer à nouveau."
+
+#: Controller/UsersController.php:307;436
+msgid "The user has been saved"
+msgstr "Les données utilisateurs ont été sauveguardées."
+
+#: Controller/UsersController.php:407
+msgid "User picture is not defined"
+msgstr "L'image de l'utilisateur n'est pas définie"
+
+#: Controller/UsersController.php:413
+msgid "User birth date is not defined"
+msgstr "La date de naissance n'est pas définie"
+
+#: Controller/UsersController.php:473
+msgid "User password is not new"
+msgstr "Le mot de passe n'est pas définie"
+
+#: Controller/UsersController.php:480;531
+msgid "The user %s could not be saved. Please, try again."
+msgstr ""
+"Les données de l'utilisateur %s n'ont pu être sauveguardées. Veuillez "
+"essayer à nouveau."
+
+#: Controller/UsersController.php:480;483 View/Users/add.ctp:14
+#: View/Users/login.ctp:12 View/Users/password_change.ctp:8
+#: View/Users/profile.ctp:19 View/Users/register.ctp:14
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Controller/UsersController.php:483;534
+msgid "The user %s has been saved"
+msgstr "Les données de l'utilisateur %s ont été sauveguardées avec succès"
+
+#: Controller/UsersController.php:517
+msgid "User username cannot be empty"
+msgstr "Le nom utilisateur ne peut être laissé vide"
+
+#: Controller/UsersController.php:521
+msgid "User username is not new"
+msgstr "Le nom utilisateur est déjà utilisé"
+
+#: Controller/UsersController.php:526
+msgid "The selected username is already in use"
+msgstr "le nom utilisateur choisi est déjà en cours d'utilisation"
+
+#: Controller/UsersController.php:531;534
+msgid "username"
+msgstr "nom utilisateur"
+
+#: Controller/UsersController.php:561
+msgid "User deleted"
+msgstr "l'utilisateur a été supprimé"
+
+#: Controller/UsersController.php:564
+msgid "User was not deleted"
+msgstr "l'utilisateur n'a pu être supprimé"
+
+#: Controller/VideosController.php:129
+msgid "No video resource found in request"
+msgstr "aucune ressource vidéo n'a été trouvée dans la requète de service"
+
+#: Controller/VideosController.php:150
+msgid "Video file is too large"
+msgstr "Le fichier vidéo est trop large"
+
+#: Controller/VideosController.php:168
+msgid "Unable to save the video data"
+msgstr "Impossible de sauveguarder les données vidéo"
+
+#: Controller/VideosController.php:172
+msgid "Video has been successfully uploaded"
+msgstr "Le fichier vidéo a été téléchargé avec succès"
+
+#: Controller/Component/Auth/Md5Authenticate.php:110
+msgid "Unknown user"
+msgstr "utilisateur inconnu"
+
+#: Controller/Component/Auth/Md5Authenticate.php:132
+msgid "Incorrect user name or password"
+msgstr "Le nom ou le mot de passe utilisateur est invalide"
+
+#: Controller/Component/Auth/Md5Authenticate.php:138
+msgid "Your account has not yet been approved"
+msgstr "Votre compte a été approuvé"
+
+#: Controller/Component/Auth/Md5Authenticate.php:158
+msgid "Unable to update user last login date"
+msgstr ""
+"Impossible de sauveguarder la date de dernière connexion de l'utilisateur"
+
+#: Model/AppModel.php:45
+msgid "Internal Error: contact your administrator"
+msgstr "Erreur interne: veuillez contacter l'administrateur système"
+
+#: Model/AppModel.php:46
+msgid "Unable to load configurations"
+msgstr "Impossible de charger les configurations systèmes"
+
+#: Model/AppModel.php:47
+msgid "Undefined configuration"
+msgstr "Configuration système inconnue"
+
+#: Model/Attempt.php:26
+msgid "Attempt's distance cannot be empty"
+msgstr "La distance de tir de la temptative de but ne peut être laissée vide"
+
+#: Model/Attempt.php:34
+msgid "Attempt's type id cannot be empty'"
+msgstr "Le type de tir de la temptative de but ne peut être laissé vide"
+
+#: Model/Attempt.php:42
+msgid "Attempt's comment cannot be empty"
+msgstr "Le commentaire sur la temptative de but ne peut être laissé vide"
+
+#: Model/Championship.php:34
+msgid "Championship's country cannot be empty"
+msgstr "Le pays du Championat ne peut être laissé vide"
+
+#: Model/Championship.php:42
+msgid "Championship's website cannot be empty'"
+msgstr "Le site web du Championat ne peut être laissé vide"
+
+#: Model/Championship.php:50
+msgid "Championship's name cannot be empty"
+msgstr "Le no, du Championat ne peut être laissé vide"
+
+#: Model/ChampionshipClub.php:30
+msgid "Championship club's club cannot be empty"
+msgstr "Le nom du club compétiteur ne peut être laissé vide"
+
+#: Model/ChampionshipClub.php:38
+msgid "Championship club's championship year id cannot be empty'"
+msgstr "Le nom du tournoi du club compétiteur ne peut être laissé vide"
+
+#: Model/ChampionshipClub.php:46
+msgid "Championship club's code cannot be empty"
+msgstr "Le code du club compétiteur ne peut être laissé vide"
+
+#: Model/ChampionshipYear.php:38
+msgid "Championship year's year cannot be empty"
+msgstr "L'année du Tournoi ne peut être laissée vide"
+
+#: Model/ChampionshipYear.php:46
+msgid "Championship year's championship id cannot be empty'"
+msgstr "Le nom du Championat du Tournoi ne peut être laissé vide"
+
+#: Model/ChampionshipYear.php:54
+msgid "Championship year's start date cannot be empty"
+msgstr "La date de début du Tournoi ne peut être laissée vide"
+
+#: Model/ChampionshipYear.php:62
+msgid "Championship year's end date cannot be empty"
+msgstr "La date de fin du Tournoi ne peut être laissée vide"
+
+#: Model/Club.php:33
+msgid "Club's country cannot be empty"
+msgstr "Le pays du club ne peut être laissé vide"
+
+#: Model/Club.php:41
+msgid "Club's name cannot be empty'"
+msgstr "le nom du club ne peut être laissé vide"
+
+#: Model/Club.php:49
+msgid "Club's short name cannot be empty"
+msgstr "le nom court du club ne peut être vide"
+
+#: Model/Club.php:57
+msgid "Club's logo img id be empty"
+msgstr "l'image logo du club ne peut être vide"
+
+#: Model/Club.php:65
+msgid "Club's town cannot be empty"
+msgstr "la ville du club ne peut être laissée vide"
+
+#: Model/Comment.php:69
+msgid "Club's player cannot be empty"
+msgstr "le no, du joueur butteur ne peut être laissé vide"
+
+#: Model/Comment.php:77
+msgid "Club's timecannot be empty'"
+msgstr "le temps du but ne peut être laissé vide"
+
+#: Model/Goal.php:26
+msgid "Goal's type cannot be empty"
+msgstr "le type de but ne peut être laissé vide"
+
+#: Model/Goal.php:34
+msgid "Goal's distance cannot be empty'"
+msgstr "la distance de but ne peut être laissée vide"
+
+#: Model/Goal.php:42
+msgid "Goal's passer cannot be empty"
+msgstr "le nom du passeur décisif ne peut être vide"
+
+#: Model/Goal.php:50
+msgid "Goal's comment cannot be empty"
+msgstr "le commentaire sur le but ne peut être vide"
+
+#: Model/Match.php:38
+msgid "Match's shampionship year cannot be empty"
+msgstr "le tournoi du match ne peut être laissé vide"
+
+#: Model/Person.php:34
+msgid "Person first name cannot be empty"
+msgstr "le prénom ne peut être vide"
+
+#: Model/Person.php:42
+msgid "Person last name cannot be empty"
+msgstr "le nom de famille ne peut être vide"
+
+#: Model/Player.php:27
+msgid "Player pro cannot be empty"
+msgstr "Le contrat du joueur ne peut être vide"
+
+#: Model/Player.php:35
+msgid "Player team cannot be empty"
+msgstr "le nom de l'équipe dans laquelle joue le joueur ne peut être vide"
+
+#: Model/Player.php:43
+msgid "Player position cannot be empty"
+msgstr "la position du joueur ne peut être vide"
+
+#: Model/Pro.php:34
+msgid "Professional number cannot be empty"
+msgstr "le numéro de mayot du joueur ne peut être vide"
+
+#: Model/Pro.php:42
+msgid "Professional from date cannot be empty"
+msgstr "la date de début de contrat du joueur ne peut être vide"
+
+#: Model/Pro.php:50
+msgid "Professional club cannot be empty"
+msgstr "le Club du joueur ne peut être vide"
+
+#: Model/Pro.php:58
+msgid "Professional person cannot be empty"
+msgstr "Les donnes personnelles du joueur ne peuvent être vide"
+
+#: Model/Sanction.php:26
+msgid "Sanction's code cannot be empty"
+msgstr "le code de la sanction ne peut être vide"
+
+#: Model/Sanction.php:34
+msgid "Sanction's comment cannot be empty'"
+msgstr "le commentaire sur la sanction ne peut être vide"
+
+#: Model/Stadium.php:30
+msgid "Stadium's name cannot be empty"
+msgstr "le nom du stade ne peut être vide"
+
+#: Model/Stadium.php:38
+msgid "Stadium's capacity cannot be empty'"
+msgstr "la capacité du stade ne peut être vide"
+
+#: Model/Stadium.php:46
+msgid "Stadium's town cannot be empty"
+msgstr "la ville du stade ne peut être vide"
+
+#: Model/Stadium.php:54
+msgid "Stadium's country cannot be empty"
+msgstr "le pays du stade ne peut être vide"
+
+#: Model/Team.php:26
+msgid "Team club cannot be empty"
+msgstr "le nom de l'équipe ne peut être vide"
+
+#: Model/Team.php:34
+msgid "Team match cannot be empty"
+msgstr "le nom du match joué par l'équipe ne peut être vide"
+
+#: Model/TopCatch.php:26
+msgid "TopCatch's distance cannot be empty"
+msgstr "la distance de l'arrêt décisif ne peut être vide"
+
+#: Model/TopCatch.php:34
+msgid "TopCatch's comment cannot be empty'"
+msgstr "le commentaire sur l'arrêt décisif ne peut être vide"
+
+#: Model/TopCatch.php:42
+msgid "TopCatch's type cannot be empty'"
+msgstr "le type d'arrêt décisif ne peut être vide"
+
+#: Model/User.php:27
+msgid "User password cannot be empty"
+msgstr "le mot de passe ne peut être vide"
+
+#: Model/User.php:35
+msgid "User type cannot be empty"
+msgstr "le type utilisateur ne peut être vide"
+
+#: View/Attributes/edit.ctp:6
+msgid "Edit Attribute"
+msgstr "Modifier la propriété"
+
+#: View/Attributes/edit.ctp:8
+msgid "Attribute Name"
+msgstr "Le Nom de la Propriété"
+
+#: View/Attributes/edit.ctp:15;18;33;35
+msgid "Attribute Value"
+msgstr "La Valeur de la Propriété"
+
+#: View/Attributes/edit.ctp:28
+msgid "Content"
+msgstr "Contenu"
+
+#: View/Attributes/edit.ctp:38 View/ChampionshipClubs/add.ctp:22
+#: View/ChampionshipClubs/edit.ctp:20 View/ChampionshipYears/add.ctp:22
+#: View/ChampionshipYears/edit.ctp:23 View/ChampionshipYears/edit_match.ctp:32
+#: View/Championships/add.ctp:21 View/Championships/edit.ctp:21
+#: View/Clubs/add.ctp:28 View/Clubs/edit.ctp:27 View/Comments/add.ctp:24
+#: View/Comments/edit.ctp:21 View/Matches/add.ctp:35 View/Matches/edit.ctp:37
+#: View/People/add.ctp:40 View/People/edit.ctp:40 View/Players/add.ctp:22
+#: View/Players/edit.ctp:21 View/Pros/add.ctp:33 View/Pros/edit.ctp:33
+#: View/Stadia/add.ctp:29 View/Stadia/edit.ctp:27 View/Users/add.ctp:30
+#: View/Users/edit.ctp:18 View/Users/password_change.ctp:13
+#: View/Users/username_change.ctp:11
+msgid "Save"
+msgstr "Enregistrer"
+
+#: View/Attributes/table.ctp:6
+msgid "Display Name"
+msgstr "Nom Affiché"
+
+#: View/Attributes/table.ctp:7
+msgid "Current Value"
+msgstr "Valeur en Cours"
+
+#: View/Attributes/table.ctp:8 View/Championships/Parts/details.ctp:26
+#: View/Clubs/Parts/details.ctp:56
+msgid "Created"
+msgstr "Créé(e)"
+
+#: View/Attributes/table.ctp:9 View/Championships/index.save.ctp:39
+#: View/Championships/table.save.ctp:15 View/Users/index.ctp:13
+#: View/Users/table.ctp:39 View/Users/view.ctp:127
+msgid "Actions"
+msgstr "Actions"
+
+#: View/Attributes/table.ctp:47 View/Championships/table.save.ctp:28
+#: View/Users/table.ctp:51
+msgid "Edit"
+msgstr "Modifier"
+
+#: View/ChampionshipClubs/add.ctp:7
+msgid "Add Championship Club"
+msgstr "Ajouter un Club"
+
+#: View/ChampionshipClubs/add.ctp:13
+msgid "ChampionshipYear"
+msgstr "Tournoi"
+
+#: View/ChampionshipClubs/add.ctp:15 View/ChampionshipClubs/edit.ctp:13
+#: View/ChampionshipYears/edit_match.ctp:11 View/Matches/add.ctp:9
+#: View/Matches/edit.ctp:11
+msgid "Code"
+msgstr "Code"
+
+#: View/ChampionshipClubs/add.ctp:19 View/ChampionshipClubs/edit.ctp:17
+#: View/Clubs/table.ctp:74 View/Clubs/Parts/pros.ctp:30
+#: View/Pros/Parts/details.ctp:32
+msgid "Club"
+msgstr "Club"
+
+#: View/ChampionshipClubs/edit.ctp:7
+msgid "Edit Championship Club"
+msgstr "Modifier le Tournoi"
+
+#: View/ChampionshipClubs/edit.ctp:12 View/ChampionshipYears/add.ctp:18
+#: View/ChampionshipYears/table.ctp:42
+#: View/ChampionshipYears/Parts/details.ctp:6
+#: View/ChampionshipYears/Parts/matches.ctp:11
+#: View/Championships/index.save.ctp:1 View/Championships/table.ctp:69
+#: View/Championships/Parts/tours.ctp:33 View/Matches/table.ctp:20
+#: View/Matches/Parts/details.ctp:6
+msgid "Championship"
+msgstr "Championat"
+
+#: View/ChampionshipYears/add.ctp:7
+msgid "Add Championship Year"
+msgstr "Ajouter un Tournoi"
+
+#: View/ChampionshipYears/add.ctp:9 View/ChampionshipYears/edit.ctp:11
+#: View/ChampionshipYears/table.ctp:17 View/Championships/Parts/tours.ctp:8
+msgid "Year"
+msgstr "Année"
+
+#: View/ChampionshipYears/add.ctp:10 View/ChampionshipYears/edit.ctp:12
+#: View/Championships/add.ctp:11 View/Championships/edit.ctp:11
+#: View/Clubs/add.ctp:14 View/Clubs/edit.ctp:14 View/Matches/add.ctp:14
+#: View/Matches/edit.ctp:16 View/People/add.ctp:16 View/People/edit.ctp:16
+#: View/Stadia/add.ctp:10 View/Stadia/edit.ctp:10
+msgid "Description Short"
+msgstr "Description Courte"
+
+#: View/ChampionshipYears/add.ctp:11 View/ChampionshipYears/edit.ctp:13
+#: View/Championships/add.ctp:12 View/Championships/edit.ctp:12
+#: View/Clubs/add.ctp:15 View/Clubs/edit.ctp:15 View/Matches/add.ctp:15
+#: View/Matches/edit.ctp:17 View/People/add.ctp:17 View/People/edit.ctp:17
+#: View/Stadia/add.ctp:11 View/Stadia/edit.ctp:11
+msgid "Description"
+msgstr "Description"
+
+#: View/ChampionshipYears/add.ctp:12 View/ChampionshipYears/edit.ctp:14
+#: View/ChampionshipYears/edit_match.ctp:12
+#: View/ChampionshipYears/Parts/details.ctp:11 View/Matches/add.ctp:11
+#: View/Matches/edit.ctp:13 View/Matches/Parts/details.ctp:16
+msgid "Start Date"
+msgstr "Date de Début"
+
+#: View/ChampionshipYears/add.ctp:13 View/ChampionshipYears/edit.ctp:15
+#: View/ChampionshipYears/Parts/details.ctp:16 View/Matches/add.ctp:13
+#: View/Matches/edit.ctp:15
+msgid "End Date"
+msgstr "Date de Fin"
+
+#: View/ChampionshipYears/edit.ctp:9
+msgid "Edit Championship Year"
+msgstr "Modifier le Tournoi"
+
+#: View/ChampionshipYears/edit.ctp:20
+msgid "Winning Club"
+msgstr "Gagnant"
+
+#: View/ChampionshipYears/edit_match.ctp:9 View/Matches/edit.ctp:9
+#: View/Matches/view.ctp:15
+msgid "Edit Match"
+msgstr "Modifier le Match"
+
+#: View/ChampionshipYears/edit_match.ctp:17 View/Matches/add.ctp:20
+#: View/Matches/edit.ctp:22 View/Matches/view.ctp:40
+#: View/Matches/Parts/details.ctp:21
+msgid "Host Team"
+msgstr "Hôtes"
+
+#: View/ChampionshipYears/edit_match.ctp:22 View/Matches/add.ctp:25
+#: View/Matches/edit.ctp:27 View/Matches/view.ctp:45
+#: View/Matches/Parts/details.ctp:26
+msgid "Guest Team"
+msgstr "Visiteurs"
+
+#: View/ChampionshipYears/edit_match.ctp:23
+#: View/ChampionshipYears/Parts/matches.ctp:17 View/Matches/add.ctp:26
+#: View/Matches/edit.ctp:28 View/Matches/table.ctp:26
+#: View/Matches/Parts/details.ctp:31
+msgid "Duration"
+msgstr "Durée"
+
+#: View/ChampionshipYears/edit_match.ctp:27 View/Matches/add.ctp:30
+#: View/Matches/edit.ctp:32 View/Stadia/table.ctp:78
+msgid "Stadium"
+msgstr "Stade"
+
+#: View/ChampionshipYears/edit_match.ctp:28
+#: View/ChampionshipYears/Parts/matches.ctp:12 View/Matches/add.ctp:31
+#: View/Matches/edit.ctp:33 View/Matches/table.ctp:21
+msgid "Score"
+msgstr "Résultats"
+
+#: View/ChampionshipYears/edit_match.ctp:29 View/Matches/add.ctp:32
+#: View/Matches/edit.ctp:34
+msgid "Spectators"
+msgstr "Spectateurs"
+
+#: View/ChampionshipYears/index.ctp:7 View/Championships/index.ctp:8
+#: View/Championships/index.save.ctp:9 View/Clubs/index.ctp:8
+#: View/Matches/index.ctp:7 View/People/index.ctp:7 View/Stadia/index.ctp:7
+msgid "Search"
+msgstr "Chercher"
+
+#: View/ChampionshipYears/index.ctp:12 View/Championships/index.ctp:13
+#: View/Championships/index.save.ctp:14 View/Clubs/index.ctp:13
+#: View/Matches/index.ctp:12 View/People/index.ctp:12 View/Stadia/index.ctp:12
+msgid "List"
+msgstr "Liste"
+
+#: View/ChampionshipYears/table.ctp:18 View/Championships/Parts/tours.ctp:9
+msgid "Started on"
+msgstr "Commencé le"
+
+#: View/ChampionshipYears/table.ctp:22 View/Championships/Parts/tours.ctp:13
+msgid "Ended on"
+msgstr "Terminé le"
+
+#: View/ChampionshipYears/table.ctp:28 View/ChampionshipYears/view.ctp:38
+#: View/ChampionshipYears/Parts/clubs.ctp:18
+#: View/ChampionshipYears/Parts/matches.ctp:46
+#: View/Championships/Parts/tours.ctp:19 View/Matches/table.ctp:69
+msgid "Matches"
+msgstr "Matchs"
+
+#: View/ChampionshipYears/table.ctp:53
+#: View/ChampionshipYears/Parts/stats.ctp:23;50;123;150
+#: View/Championships/table.ctp:46 View/Championships/Parts/tours.ctp:44
+#: View/Clubs/table.ctp:50 View/Clubs/Parts/stats.ctp:23
+#: View/Matches/table.ctp:50 View/Matches/Parts/stats.ctp:23;51;127;155
+#: View/People/table.ctp:49 View/Pros/Parts/stats.ctp:23;50;123;150
+#: View/Stadia/table.ctp:54
+msgid "All"
+msgstr "Tout"
+
+#: View/ChampionshipYears/table.ctp:69 View/Championships/view.ctp:42
+#: View/Championships/Parts/tours.ctp:61
+msgid "Tournaments"
+msgstr "Tournois"
+
+#: View/ChampionshipYears/table.ctp:74 View/Championships/Parts/tours.ctp:69
+#: View/Matches/table.ctp:40
+msgid "Tournament"
+msgstr "Tournoi"
+
+#: View/ChampionshipYears/view.ctp:28 View/Championships/view.ctp:37
+#: View/Clubs/view.ctp:37 View/Matches/view.ctp:35 View/Pros/view.ctp:29
+msgid "Details"
+msgstr "Détails"
+
+#: View/ChampionshipYears/view.ctp:33
+#: View/ChampionshipYears/Parts/clubs.ctp:48
+msgid "Teams"
+msgstr "Equipes"
+
+#: View/ChampionshipYears/view.ctp:43 View/Clubs/view.ctp:47
+#: View/Matches/view.ctp:55 View/Pros/view.ctp:44
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: View/ChampionshipYears/Parts/clubs.ctp:14 View/Clubs/table.ctp:19
+#: View/Stadia/table.ctp:19
+msgid "Located"
+msgstr "Emplacement"
+
+#: View/ChampionshipYears/Parts/clubs.ctp:15 View/Clubs/table.ctp:20
+#: View/Stadia/table.ctp:20
+msgid "Founded on"
+msgstr "Créé le"
+
+#: View/ChampionshipYears/Parts/clubs.ctp:55
+msgid "Team"
+msgstr "Equipe"
+
+#: View/ChampionshipYears/Parts/details.ctp:21
+msgid "Winning Team"
+msgstr "Gagnant"
+
+#: View/ChampionshipYears/Parts/matches.ctp:13 View/Matches/table.ctp:22
+msgid "Date"
+msgstr "Date"
+
+#: View/ChampionshipYears/Parts/matches.ctp:16 View/Matches/table.ctp:25
+#: View/Matches/Parts/details.ctp:36
+msgid "Winner Team"
+msgstr "Gagnant"
+
+#: View/ChampionshipYears/Parts/matches.ctp:51 View/Matches/table.ctp:74
+msgid "Match"
+msgstr "Match"
+
+#: View/ChampionshipYears/Parts/stats.ctp:7
+msgid "Goals Per Club"
+msgstr "Buts par Club"
+
+#: View/ChampionshipYears/Parts/stats.ctp:15;142 View/Clubs/Parts/stats.ctp:15
+#: View/Matches/Parts/stats.ctp:43 View/Pros/Parts/stats.ctp:15;42
+msgid "Attempt"
+msgstr "Tir Cadré"
+
+#: View/ChampionshipYears/Parts/stats.ctp:19;46;119
+#: View/Clubs/Parts/stats.ctp:19 View/Matches/Parts/guest_team.ctp:17
+#: View/Matches/Parts/host_team.ctp:17
+#: View/Matches/Parts/stats.ctp:19;47;123;151
+#: View/Pros/Parts/stats.ctp:19;46;119;146
+msgid "Goals"
+msgstr "Buts"
+
+#: View/ChampionshipYears/Parts/stats.ctp:34 View/Clubs/Parts/stats.ctp:7
+#: View/Matches/Parts/stats.ctp:7
+msgid "Goals per Player"
+msgstr "Buts par Joueur"
+
+#: View/ChampionshipYears/Parts/stats.ctp:42;115
+#: View/Matches/Parts/stats.ctp:15;119;147 View/Pros/Parts/stats.ctp:115;142
+msgid "Attempts"
+msgstr "Tirs Cadrés"
+
+#: View/ChampionshipYears/Parts/stats.ctp:61 View/Clubs/Parts/stats.ctp:53
+#: View/Matches/Parts/stats.ctp:63
+msgid "Cards Per Player"
+msgstr "Sanctions par Joueur"
+
+#: View/ChampionshipYears/Parts/stats.ctp:69;92 View/Clubs/Parts/stats.ctp:61
+#: View/Matches/Parts/stats.ctp:71;95 View/Pros/Parts/stats.ctp:69;92
+msgid "Yellows"
+msgstr "Jaunes"
+
+#: View/ChampionshipYears/Parts/stats.ctp:73;96 View/Clubs/Parts/stats.ctp:65
+#: View/Matches/Parts/stats.ctp:75;99 View/Pros/Parts/stats.ctp:73;96
+msgid "Reds"
+msgstr "Rouges"
+
+#: View/ChampionshipYears/Parts/stats.ctp:84
+msgid "Cards Per Club"
+msgstr "Sanctions par Clubs"
+
+#: View/ChampionshipYears/Parts/stats.ctp:107
+msgid "Goal Per Types"
+msgstr "Buts par Types"
+
+#: View/ChampionshipYears/Parts/stats.ctp:134
+msgid "Goals Per Distances"
+msgstr "But par distances"
+
+#: View/ChampionshipYears/Parts/stats.ctp:146
+msgid "Goal"
+msgstr "But"
+
+#: View/ChampionshipYears/Parts/stats.ctp:161
+msgid "Points Per Club"
+msgstr "Points par Club"
+
+#: View/ChampionshipYears/Parts/stats.ctp:169 View/Clubs/Parts/stats.ctp:42
+msgid "Points"
+msgstr "Points"
+
+#: View/Championships/add.ctp:7
+msgid "Add Championship"
+msgstr "Ajouter un Championat"
+
+#: View/Championships/add.ctp:9 View/Championships/edit.ctp:9
+#: View/Championships/table.save.ctp:12 View/Championships/Parts/details.ctp:6
+#: View/Clubs/add.ctp:11 View/Clubs/edit.ctp:11 View/Clubs/Parts/details.ctp:6
+#: View/Users/edit.ctp:8
+msgid "Short Name"
+msgstr "Nom Court"
+
+#: View/Championships/add.ctp:10 View/Championships/edit.ctp:10
+#: View/Championships/table.save.ctp:11
+#: View/Championships/Parts/details.ctp:11 View/Clubs/add.ctp:12
+#: View/Clubs/edit.ctp:12 View/Clubs/Parts/details.ctp:11
+#: View/Pros/Parts/details.ctp:8 View/Stadia/add.ctp:9 View/Stadia/edit.ctp:9
+#: View/Stadia/Parts/details.ctp:6 View/Users/edit.ctp:9
+msgid "Name"
+msgstr "Nom"
+
+#: View/Championships/add.ctp:13 View/Championships/edit.ctp:13
+#: View/Clubs/add.ctp:18 View/Clubs/edit.ctp:17
+#: View/Clubs/Parts/details.ctp:41 View/Users/edit.ctp:10
+msgid "Website"
+msgstr "Site Web"
+
+#: View/Championships/add.ctp:14 View/Championships/edit.ctp:14
+#: View/Championships/table.save.ctp:13 View/Clubs/add.ctp:17
+#: View/Clubs/edit.ctp:16 View/Users/edit.ctp:11
+msgid "Founded"
+msgstr "Créé(e)"
+
+#: View/Championships/add.ctp:18 View/Championships/edit.ctp:18
+#: View/Championships/table.ctp:35 View/Championships/table.save.ctp:14
+#: View/Championships/Parts/details.ctp:21 View/Clubs/add.ctp:22
+#: View/Clubs/edit.ctp:21 View/Clubs/table.ctp:39
+#: View/Clubs/Parts/details.ctp:31 View/People/add.ctp:25
+#: View/People/edit.ctp:25 View/People/table.ctp:20;38
+#: View/People/Parts/details.ctp:41 View/Stadia/add.ctp:16
+#: View/Stadia/edit.ctp:16 View/Stadia/table.ctp:37
+#: View/Stadia/Parts/details.ctp:11 View/Users/add.ctp:21
+#: View/Users/edit.ctp:15 View/Users/register.ctp:23 View/Users/view.ctp:114
+msgid "Country"
+msgstr "Pays"
+
+#: View/Championships/edit.ctp:7 View/Championships/view.ctp:14
+#: View/Users/edit.ctp:6
+msgid "Edit Championship"
+msgstr "Modifier le Championat"
+
+#: View/Championships/index.ctp:18 View/Championships/index.save.ctp:19;43
+#: View/Championships/view.ctp:19
+msgid "New Championship"
+msgstr "Nouveau Championat"
+
+#: View/Championships/index.save.ctp:32
+msgid "Championships List"
+msgstr "Liste des Championats"
+
+#: View/Championships/table.ctp:16
+msgid "Founded on "
+msgstr "Créé le"
+
+#: View/Championships/table.ctp:21
+msgid "Seasons"
+msgstr "Saisons"
+
+#: View/Championships/table.ctp:62
+msgid "Championships"
+msgstr "Championats"
+
+#: View/Championships/table.save.ctp:25 View/Users/table.ctp:50
+msgid "View"
+msgstr "Consulter"
+
+#: View/Championships/table.save.ctp:38 View/Users/table.ctp:70
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Page {:page} de {:pages}, montrant {:current} lignes d'un total de {:count}, "
+"commençant par la ligne {:start}, jusqu'à la ligne {:end}"
+
+#: View/Championships/table.save.ctp:45 View/Users/table.ctp:77
+msgid "previous"
+msgstr "précédant"
+
+#: View/Championships/table.save.ctp:47 View/Users/table.ctp:79
+msgid "next"
+msgstr "suivant"
+
+#: View/Championships/Parts/details.ctp:16 View/Clubs/Parts/details.ctp:26
+msgid "Funded"
+msgstr "Créé"
+
+#: View/Clubs/add.ctp:7
+msgid "Add Club"
+msgstr "Ajouter un Club"
+
+#: View/Clubs/add.ctp:10 View/Clubs/edit.ctp:10
+#: View/Clubs/Parts/details.ctp:21
+msgid "Logo"
+msgstr "Logo"
+
+#: View/Clubs/add.ctp:13 View/Clubs/edit.ctp:13
+#: View/Clubs/Parts/details.ctp:16 View/People/add.ctp:15
+#: View/People/edit.ctp:15 View/People/Parts/details.ctp:31
+msgid "Nick Name"
+msgstr "Alias"
+
+#: View/Clubs/add.ctp:23 View/Clubs/edit.ctp:22
+#: View/Clubs/Parts/details.ctp:36 View/People/add.ctp:30
+#: View/People/edit.ctp:30 View/People/Parts/details.ctp:51
+#: View/Stadia/add.ctp:21 View/Stadia/edit.ctp:21
+#: View/Stadia/Parts/details.ctp:16 View/Users/register.ctp:30
+msgid "Town"
+msgstr "Ville"
+
+#: View/Clubs/add.ctp:24 View/Clubs/edit.ctp:23
+msgid "Is Pro"
+msgstr "Professionel"
+
+#: View/Clubs/add.ctp:25 View/Clubs/edit.ctp:24
+msgid "Is National"
+msgstr "International"
+
+#: View/Clubs/edit.ctp:7 View/Clubs/view.ctp:14
+msgid "Edit Club"
+msgstr "Modifier le Club"
+
+#: View/Clubs/index.ctp:18 View/Clubs/view.ctp:19
+msgid "New Club"
+msgstr "Nouveau Club"
+
+#: View/Clubs/table.ctp:25 View/Clubs/view.ctp:42 View/Clubs/Parts/pros.ctp:67
+msgid "Professionals"
+msgstr "Professionels"
+
+#: View/Clubs/table.ctp:69
+msgid "Clubs"
+msgstr "Clubs"
+
+#: View/Clubs/Parts/details.ctp:46
+msgid "Pro?"
+msgstr "Professionel?"
+
+#: View/Clubs/Parts/details.ctp:51
+msgid "National?"
+msgstr "International?"
+
+#: View/Clubs/Parts/pros.ctp:27 View/Pros/Parts/details.ctp:28
+msgid "year"
+msgstr "année"
+
+#: View/Clubs/Parts/pros.ctp:28 View/Pros/Parts/details.ctp:29
+msgid "month"
+msgstr "mois"
+
+#: View/Clubs/Parts/pros.ctp:29 View/Pros/Parts/details.ctp:14
+msgid "Age"
+msgstr "Age"
+
+#: View/Clubs/Parts/pros.ctp:31
+msgid "Since"
+msgstr "Depuis"
+
+#: View/Clubs/Parts/pros.ctp:34 View/Pros/add.ctp:17 View/Pros/edit.ctp:17
+msgid "To"
+msgstr "à"
+
+#: View/Clubs/Parts/pros.ctp:38
+msgid "Selections"
+msgstr "Sélections"
+
+#: View/Clubs/Parts/pros.ctp:74
+msgid "Professional"
+msgstr "Professionel"
+
+#: View/Clubs/Parts/stats.ctp:34
+msgid "Points Per Year"
+msgstr "Points par Années"
+
+#: View/Comments/add.ctp:12 View/Matches/Parts/comments.ctp:5;20
+msgid "Add Comment"
+msgstr "Nouveau Commentaire"
+
+#: View/Comments/add.ctp:18 View/Comments/edit.ctp:16
+#: View/Matches/Parts/guest_team.ctp:54 View/Matches/Parts/host_team.ctp:54
+#: View/Players/add.ctp:13 View/Players/edit.ctp:12
+msgid "Player"
+msgstr "Joueur"
+
+#: View/Comments/add.ctp:19
+msgid "Time (seconds)"
+msgstr "Temps (secondes)"
+
+#: View/Comments/add.ctp:20 View/Comments/attempt.ctp:6
+#: View/Comments/goal.ctp:6 View/Comments/top_catch.ctp:6
+msgid "Type"
+msgstr "Type"
+
+#: View/Comments/attempt.ctp:2 View/Comments/goal.ctp:2
+#: View/Comments/top_catch.ctp:2
+msgid "Distance"
+msgstr "Distance"
+
+#: View/Comments/attempt.ctp:7
+msgid "On Target?"
+msgstr "Cadré?"
+
+#: View/Comments/attempt_view.ctp:9 View/Comments/goal_view.ctp:9
+#: View/Comments/top_catch_view.ctp:10
+msgid "meters"
+msgstr "mêtres"
+
+#: View/Comments/edit.ctp:10
+msgid "Edit Comment"
+msgstr "Modifier le Commentaire"
+
+#: View/Comments/edit.ctp:17
+msgid "Time"
+msgstr "Temps"
+
+#: View/Comments/goal.ctp:11
+msgid "Passer"
+msgstr "Passeur Décisif"
+
+#: View/Comments/image.ctp:3
+msgid "Image"
+msgstr "Image"
+
+#: View/Comments/replacement.ctp:6
+msgid "Replaced Player"
+msgstr "Joueur Sortant"
+
+#: View/Comments/text.ctp:2
+msgid "Text"
+msgstr "Texte"
+
+#: View/Comments/video.ctp:3
+msgid "Video"
+msgstr "Video"
+
+#: View/Elements/listview.ctp:68 View/Pros/Parts/images.ctp:66
+msgid "Add"
+msgstr "Ajouter"
+
+#: View/Elements/listview.ctp:111
+msgid "Folders"
+msgstr "Dossiers"
+
+#: View/Elements/listview.ctp:147
+msgid "Filter"
+msgstr "Filtrer"
+
+#: View/Elements/listview.ctp:156
+msgid "Delete"
+msgstr "Supprimer"
+
+#: View/Elements/listview.ctp:167
+msgid "Move To"
+msgstr "Déplacer vers"
+
+#: View/Elements/menu.ctp:34
+msgid "Join Free"
+msgstr "S'enregistrer"
+
+#: View/Elements/menu.ctp:36
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: View/Elements/menu.ctp:110
+msgid "Edit profile"
+msgstr "Modifier Profile"
+
+#: View/Elements/menu.ctp:117
+msgid "Help"
+msgstr "Aide"
+
+#: View/Elements/menu.ctp:119
+msgid "Settings"
+msgstr "Paramètres"
+
+#: View/Elements/menu.ctp:121
+msgid "Sign Out"
+msgstr "Se déconnecter"
+
+#: View/Elements/sidebar.ctp:9
+msgid "Menu"
+msgstr "Menu"
+
+#: View/Helper/FormatHelper.php:100;123
+msgid "User is unknown"
+msgstr "l'Utilisateur est inconnu"
+
+#: View/Helper/FormatHelper.php:104
+msgid "User is already defined"
+msgstr "l'utilisateur est déjà défini"
+
+#: View/Matches/add.ctp:7
+msgid "Add Match"
+msgstr "Ajouter un Match"
+
+#: View/Matches/view.ctp:50 View/Pros/view.ctp:39
+msgid "Wall"
+msgstr "Mûr"
+
+#: View/Matches/Parts/comments.ctp:17
+msgid "Comment Type"
+msgstr "Type de Commentaire"
+
+#: View/Matches/Parts/details.ctp:11
+msgid "Championship Year"
+msgstr "Tournoi"
+
+#: View/Matches/Parts/guest_team.ctp:11 View/Matches/Parts/host_team.ctp:11
+msgid "Time Entry"
+msgstr "Temps Entrée"
+
+#: View/Matches/Parts/guest_team.ctp:12 View/Matches/Parts/host_team.ctp:12
+msgid "Time Exit"
+msgstr "Temps Sortie"
+
+#: View/Matches/Parts/guest_team.ctp:13 View/Matches/Parts/host_team.ctp:13
+msgid "Replaces"
+msgstr "Remplace"
+
+#: View/Matches/Parts/guest_team.ctp:47
+msgid "Guest Team Players"
+msgstr "Visiteurs"
+
+#: View/Matches/Parts/host_team.ctp:47
+msgid "Host Team Players"
+msgstr "Hôtes"
+
+#: View/Matches/Parts/stats.ctp:35
+msgid "Goals per Team"
+msgstr "Buts par équipe"
+
+#: View/Matches/Parts/stats.ctp:87
+msgid "Cards"
+msgstr "Sanctions"
+
+#: View/Matches/Parts/stats.ctp:111
+msgid "Shoot Distances"
+msgstr "Distances de tirs"
+
+#: View/Matches/Parts/stats.ctp:139
+msgid "Goal Types"
+msgstr "Types de But"
+
+#: View/Pages/home.ctp:5 View/Pros/search.ctp:6
+msgid "Search Players"
+msgstr "Chercher des Joueurs"
+
+#: View/People/add.ctp:7
+msgid "Add Person"
+msgstr "Ajouter une Personne"
+
+#: View/People/add.ctp:10 View/People/edit.ctp:10
+#: View/People/Parts/details.ctp:6 View/Pros/Parts/details.ctp:3
+#: View/Users/add.ctp:8 View/Users/view.ctp:74
+msgid "Picture"
+msgstr "Image"
+
+#: View/People/add.ctp:11 View/People/edit.ctp:11
+#: View/People/Parts/details.ctp:11
+msgid "Name Prefix"
+msgstr "Préfix de Nom"
+
+#: View/People/add.ctp:12 View/People/edit.ctp:12
+#: View/People/Parts/details.ctp:16 View/Users/add.ctp:9
+#: View/Users/register.ctp:10 View/Users/view.ctp:94
+msgid "First Name"
+msgstr "Prénom"
+
+#: View/People/add.ctp:13 View/People/edit.ctp:13
+#: View/People/Parts/details.ctp:21 View/Users/add.ctp:10
+#: View/Users/register.ctp:11
+msgid "Last Name"
+msgstr "Nom de Famille"
+
+#: View/People/add.ctp:14 View/People/edit.ctp:14
+#: View/People/Parts/details.ctp:26
+msgid "Name Suffix"
+msgstr "Suffix de Nom"
+
+#: View/People/add.ctp:19 View/People/edit.ctp:19 View/People/table.ctp:21
+#: View/People/Parts/details.ctp:36 View/Users/add.ctp:13
+#: View/Users/view.ctp:109
+msgid "Birth Date"
+msgstr "Date de Naissance"
+
+#: View/People/add.ctp:20 View/People/edit.ctp:20 View/People/table.ctp:24
+msgid "M"
+msgstr "M"
+
+#: View/People/add.ctp:20 View/People/edit.ctp:20 View/People/table.ctp:24
+msgid "F"
+msgstr "F"
+
+#: View/People/add.ctp:21 View/People/edit.ctp:21 View/People/table.ctp:24
+msgid "Sex"
+msgstr "Sexe"
+
+#: View/People/add.ctp:29 View/People/edit.ctp:29
+#: View/People/Parts/details.ctp:46 View/Stadia/add.ctp:20
+#: View/Stadia/edit.ctp:20 View/Stadia/table.ctp:43 View/Users/add.ctp:27
+#: View/Users/register.ctp:29 View/Users/view.ctp:119
+msgid "Region"
+msgstr "Région"
+
+#: View/People/add.ctp:31 View/People/edit.ctp:31
+msgid "Post code"
+msgstr "Code Postal"
+
+#: View/People/add.ctp:32 View/People/edit.ctp:32
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: View/People/add.ctp:33 View/People/edit.ctp:33
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: View/People/add.ctp:34 View/People/edit.ctp:34 View/Users/login.ctp:11
+#: View/Users/view.ctp:104
+msgid "Email"
+msgstr "Email"
+
+#: View/People/add.ctp:35 View/People/edit.ctp:35
+#: View/People/Parts/details.ctp:71
+msgid "Office Tel"
+msgstr "Tél. Bureau"
+
+#: View/People/add.ctp:36 View/People/edit.ctp:36
+#: View/People/Parts/details.ctp:76
+msgid "Mobile Tel"
+msgstr "Tél. Mobile"
+
+#: View/People/add.ctp:37 View/People/edit.ctp:37
+msgid "Twiiter Account"
+msgstr "Compte Twitter"
+
+#: View/People/edit.ctp:7 View/People/view.ctp:14
+msgid "Edit Person"
+msgstr "Modifier la Personne"
+
+#: View/People/index.ctp:17 View/People/view.ctp:19
+msgid "New Person"
+msgstr "Nouvelle Personne"
+
+#: View/People/table.ctp:19
+msgid "Birth Town"
+msgstr "Lieu de Naissance"
+
+#: View/People/table.ctp:68
+msgid "People"
+msgstr "Personnes"
+
+#: View/People/table.ctp:73 View/Pros/add.ctp:12 View/Pros/edit.ctp:12
+msgid "Person"
+msgstr "Personne"
+
+#: View/People/Parts/details.ctp:56
+msgid "Street1"
+msgstr "Rue 1"
+
+#: View/People/Parts/details.ctp:61
+msgid "Street2"
+msgstr "Rue 2"
+
+#: View/People/Parts/details.ctp:66
+msgid "Post Code"
+msgstr "Code Postal"
+
+#: View/Players/add.ctp:7
+msgid "Add Player"
+msgstr "Ajouter Joueur"
+
+#: View/Players/add.ctp:18 View/Players/edit.ctp:17
+msgid "Position"
+msgstr "Position"
+
+#: View/Players/add.ctp:19 View/Players/edit.ctp:18
+msgid "Is Starter?"
+msgstr "Titulaire?"
+
+#: View/Players/edit.ctp:7
+msgid "Edit Player"
+msgstr "Modifier Joueur"
+
+#: View/Pros/add.ctp:7
+msgid "Add Pro"
+msgstr "Ajouter Professionel"
+
+#: View/Pros/add.ctp:13 View/Pros/edit.ctp:13
+msgid "Number"
+msgstr "Numéro"
+
+#: View/Pros/add.ctp:15 View/Pros/edit.ctp:15
+msgid "From"
+msgstr "Depuis"
+
+#: View/Pros/add.ctp:21 View/Pros/edit.ctp:21
+msgid "Lending Club"
+msgstr "Club Préteur"
+
+#: View/Pros/add.ctp:22 View/Pros/edit.ctp:22
+msgid "Salary"
+msgstr "Salaire Annuel"
+
+#: View/Pros/add.ctp:26 View/Pros/edit.ctp:26
+msgid "Currency"
+msgstr "Devise"
+
+#: View/Pros/add.ctp:27 View/Pros/edit.ctp:27
+msgid "Height (m)"
+msgstr "Hauteur (m)"
+
+#: View/Pros/add.ctp:28 View/Pros/edit.ctp:28 View/Pros/Parts/details.ctp:52
+msgid "Weight"
+msgstr "Poids"
+
+#: View/Pros/add.ctp:29 View/Pros/edit.ctp:29 View/Pros/Parts/details.ctp:63
+msgid "Is Part of Index"
+msgstr "Membre de l'Index"
+
+#: View/Pros/add.ctp:30 View/Pros/edit.ctp:30 View/Pros/Parts/details.ctp:67
+msgid "Value"
+msgstr "Valeur Actuelle"
+
+#: View/Pros/edit.ctp:7
+msgid "Edit Pro"
+msgstr "Modifier Professionel"
+
+#: View/Pros/view.ctp:34
+msgid "Photos"
+msgstr "Photos"
+
+#: View/Pros/Parts/details.ctp:37
+msgid "From Date"
+msgstr "Date début"
+
+#: View/Pros/Parts/details.ctp:42
+msgid "To Date"
+msgstr "Date de fin"
+
+#: View/Pros/Parts/details.ctp:47
+msgid "Height"
+msgstr "Hauteur"
+
+#: View/Pros/Parts/details.ctp:57
+msgid "Salary/Year"
+msgstr "Salaire Annuel"
+
+#: View/Pros/Parts/details.ctp:73
+msgid "Ranking"
+msgstr "Classement"
+
+#: View/Pros/Parts/images.ctp:5
+msgid "Add a new Picture"
+msgstr "Ajouter une image"
+
+#: View/Pros/Parts/images.ctp:12
+msgid "Delete this picture"
+msgstr "Supprimer une image"
+
+#: View/Pros/Parts/images.ctp:45
+msgid "Are you sure you want to delete this picture?"
+msgstr "Ete-vous sûre de vouloir supprimer l'image?"
+
+#: View/Pros/Parts/images.ctp:64
+msgid "Please Choose a Picture"
+msgstr "Veuillez choisir une image"
+
+#: View/Pros/Parts/images.ctp:71
+msgid "Cancel"
+msgstr "Annuler"
+
+#: View/Pros/Parts/stats.ctp:7
+msgid "Goals per Month"
+msgstr "Buts par mois"
+
+#: View/Pros/Parts/stats.ctp:34
+msgid "Goals per Year"
+msgstr "Buts par Année"
+
+#: View/Pros/Parts/stats.ctp:61
+msgid "Cards Per Year"
+msgstr "Sanctions par Année"
+
+#: View/Pros/Parts/stats.ctp:84
+msgid "Cards Per Month"
+msgstr "Sanctions par Mois"
+
+#: View/Pros/Parts/stats.ctp:107
+msgid "Goal  Per Types"
+msgstr "Buts par Types"
+
+#: View/Pros/Parts/stats.ctp:134
+msgid "Goal Per Distances"
+msgstr "Buts par Distances de tir"
+
+#: View/Pros/Parts/stats.ctp:161
+msgid "Top Catches Per Month"
+msgstr "Arrèts décisifs par Mois"
+
+#: View/Pros/Parts/stats.ctp:169;188
+msgid "Top Catches"
+msgstr "Arrèts décisifs"
+
+#: View/Pros/Parts/stats.ctp:180
+msgid "Top Catches per Year"
+msgstr "Arrèts décisifs par Années"
+
+#: View/Pros/Parts/stats.ctp:200
+msgid "Game Time Per Month"
+msgstr "Temps de jeu par Mois"
+
+#: View/Pros/Parts/stats.ctp:208;231
+msgid "Game Time"
+msgstr "Temps de jeu"
+
+#: View/Pros/Parts/stats.ctp:212;235
+msgid "Total"
+msgstr "Total"
+
+#: View/Pros/Parts/stats.ctp:223
+msgid "Game Time Per Year"
+msgstr "Temps de jeu par Années"
+
+#: View/Stadia/add.ctp:7
+msgid "Add Stadium"
+msgstr "Ajouter un Stade"
+
+#: View/Stadia/add.ctp:12 View/Stadia/edit.ctp:12 View/Stadia/table.ctp:23
+#: View/Stadia/Parts/details.ctp:26
+msgid "Capacity"
+msgstr "Capacité"
+
+#: View/Stadia/add.ctp:22 View/Stadia/edit.ctp:22
+#: View/Stadia/Parts/details.ctp:21
+msgid "Address"
+msgstr "Adresse"
+
+#: View/Stadia/add.ctp:24 View/Stadia/edit.ctp:23
+msgid "Built Date"
+msgstr "Date de Construction"
+
+#: View/Stadia/add.ctp:26 View/Stadia/edit.ctp:24
+msgid "Opening Date"
+msgstr "Date d'Ouverture"
+
+#: View/Stadia/edit.ctp:7 View/Stadia/view.ctp:14
+msgid "Edit Stadium"
+msgstr "Modifier le Stade"
+
+#: View/Stadia/index.ctp:17 View/Stadia/view.ctp:19
+msgid "New Stadium"
+msgstr "Nouveau Stade"
+
+#: View/Stadia/table.ctp:73
+msgid "Stadia"
+msgstr "Stade"
+
+#: View/Stadia/Parts/details.ctp:31
+msgid "Opened"
+msgstr "Ouvert"
+
+#: View/Users/add.ctp:6
+msgid "Add User"
+msgstr "Ajouter un Utilisateur"
+
+#: View/Users/add.ctp:11 View/Users/register.ctp:17
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: View/Users/add.ctp:16 View/Users/password_change.ctp:10
+#: View/Users/register.ctp:16
+msgid "Confirm Password"
+msgstr "Confirmer Mot de Passe"
+
+#: View/Users/index.ctp:1
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: View/Users/index.ctp:5
+msgid "Users List"
+msgstr "Liste des utilisateurs"
+
+#: View/Users/index.ctp:15 View/Users/view.ctp:136
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: View/Users/login.ctp:9
+msgid "Please enter your email and password"
+msgstr "Veuillez entrer votre adresse email et mot de passe"
+
+#: View/Users/login.ctp:16;17
+msgid "Login"
+msgstr "Se connecter"
+
+#: View/Users/login.ctp:18 View/Users/register.ctp:36
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: View/Users/password_change.ctp:6 View/Users/username_change.ctp:4
+msgid "Change Password"
+msgstr "Modifier Mot de Passe"
+
+#: View/Users/profile.ctp:3 View/Users/view.ctp:65
+msgid "User"
+msgstr "Utilisateur"
+
+#: View/Users/profile.ctp:6
+msgid "User Profile"
+msgstr "Profil Utilisateur"
+
+#: View/Users/profile.ctp:7
+msgid "Personal Info"
+msgstr "Info Personnelles"
+
+#: View/Users/profile.ctp:24;36
+msgid "Change"
+msgstr "Modifier"
+
+#: View/Users/profile.ctp:31 View/Users/username_change.ctp:8
+msgid "Username"
+msgstr "Nom Utilisateur"
+
+#: View/Users/register.ctp:4
+msgid "New Registration"
+msgstr "Nouvel Enregistrement"
+
+#: View/Users/register.ctp:8
+msgid "Picture/Logo"
+msgstr "Image/Logo"
+
+#: View/Users/register.ctp:13
+msgid "Birth Date/Creation Date"
+msgstr "Date de Naissance/Date de Création"
+
+#: View/Users/register.ctp:18
+msgid "Mobile (GSM)"
+msgstr "Mobile (GSM)"
+
+#: View/Users/register.ctp:31
+msgid "Street Address 1"
+msgstr "Adresse 1"
+
+#: View/Users/register.ctp:32
+msgid "Street Address 2"
+msgstr "Adresse 2"
+
+#: View/Users/table.ctp:8;52 View/Users/view.ctp:41;133
+msgid "Activate Ticket"
+msgstr "Activer le Ticket"
+
+#: View/Users/table.ctp:19 View/Users/view.ctp:26;52;84
+msgid "User ID"
+msgstr "ID Utilisateur"
+
+#: View/Users/table.ctp:25 View/Users/view.ctp:58
+msgid "Ticket ID"
+msgstr "ID Ticket"
+
+#: View/Users/view.ctp:2
+msgid "N/A"
+msgstr "RAS"
+
+#: View/Users/view.ctp:15;130
+msgid "Renew Membership"
+msgstr "Renouveller l'Abonnement"
+
+#: View/Users/view.ctp:35
+msgid "Payment ID"
+msgstr "ID Paiement"
+
+#: View/Users/view.ctp:68
+msgid "User Details"
+msgstr "Détails Utilisateur"
+
+#: View/Users/view.ctp:79
+msgid "Id"
+msgstr "Id"
+
+#: View/Users/view.ctp:89
+msgid "Valid Till"
+msgstr "Date de fin de Validité"
+
+#: View/Users/view.ctp:99
+msgid "LastName"
+msgstr "Nom de Famille"
+
+#: View/Users/view.ctp:129
+msgid "Edit User"
+msgstr "Modifier Utilisateur"
+
+#: View/MobilePages/home.ctp
+msgid "info"
+msgstr "info"
+
+#: View/MobilePages/home.ctp
+msgid "activity"
+msgstr "activité"
+
+#: View/MobilePages/home.ctp
+msgid "statistics"
+msgstr "statistiques"
+
+#: plugins/Mobile/View/MobilePages/home.ctp
+msgid "news"
+msgstr "actu"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Shirt Number"
+msgstr "Numéro"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Owner Club"
+msgstr "Club Préteur"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Salary Currency"
+msgstr "Devise du Salaire"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "years"
+msgstr "années"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "months"
+msgstr "mois"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "days"
+msgstr "jours"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "day"
+msgstr "jour"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "hours"
+msgstr "heures"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "mins"
+msgstr "mins"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "secs"
+msgstr "secs"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "ago"
+msgstr " "
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "since"
+msgstr "il y a"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Image Comment"
+msgstr "Commentaire Image"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Video Comment"
+msgstr "Commentaire Vidéo"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Text Comment"
+msgstr "Commentaire Texte"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Goal Attempt"
+msgstr "Tir Cadré"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Top Catch"
+msgstr "Arrèts Décisifs"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Yellow Card"
+msgstr "Carte Jaune"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Red Card"
+msgstr "Carte Rouge"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Entry"
+msgstr "Entrée"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Left Foot"
+msgstr "Pieds Gauche"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Right Foot"
+msgstr "Pieds Droit"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Head"
+msgstr "Tète"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Body"
+msgstr "Corps"
+
+#: plugins/Mobile/Controller/MobileProsController.php
+msgid "Home"
+msgstr "Accueil"

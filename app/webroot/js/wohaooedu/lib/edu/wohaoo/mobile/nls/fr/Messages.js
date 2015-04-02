@@ -1,0 +1,4 @@
+//>>built
+define("edu/wohaoo/mobile/nls/fr/Messages",{info:"info",Home:"Accueil",Login:"Se connecter",Register:"S'enregistrer",Settings:"Param\u00e8tres",Logout:"Se d\u00e9connecter",Menu:"Menu",FavoriteAdded:"{0} fait maintenant partie de vos favoris",FavoriteRemoved:"{0} ne fait plus partie de vos favoris",OK:"OK",CANCEL:"Annuler",EXAM_IS_COMPLETED:"L'examen est termin\u00e9",No:"Non",Yes:"Oui",CONFIRM_EXAM_RETAKE:"Etes-vous s\u00fbre de vouloir reprendre le test?",MODULE_IS_COMPLETED:"Le Module a d\u00e9j\u00e0 \u00e9t\u00e9 pass\u00e9 avec succ\u00e8s",
+PREVIOUS_MODULE_MUST_BE_COMPLETED:"Vous devez d'abord passer le module: {0}",BORN:"N\u00e9(e) le",PERSONAL_DETAILS:"Donn\u00e9es Personnelles",FIRST_NAME:"Pr\u00e9nom",LAST_NAME:"Nom de Famille",BIRTH_DATE:"Date de Naissance",LANGUAGE_SELECTION:"S\u00e9lection de Langue"});
+//@ sourceMappingURL=Messages.js.map

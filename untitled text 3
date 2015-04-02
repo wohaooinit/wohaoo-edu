@@ -1,0 +1,9 @@
+<?php
+	class CaptchasController extends Controller{
+		public $components = array('Captcha');
+		public function captcha(){
+			$this->autoRender = false;
+			$this->Captcha->generate();
+		}
+	}
+?>

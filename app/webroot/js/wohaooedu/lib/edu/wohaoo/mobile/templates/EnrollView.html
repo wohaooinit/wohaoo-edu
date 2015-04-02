@@ -1,0 +1,34 @@
+<div class="enrollContainer">
+	<div id="enrollDialog" class="enrollDialog">
+		<div class="enrollHeaderPane">
+			<span class="company-logo center">${logoText}</span>
+		</div>
+		<div data-dojo-type="dojox/mobile/ContentPane" class="enrollPane mblHidden" data-dojo-attach-point="enrollPane">
+			<div class="enrollDescPane">
+				<span data-dojo-type="dojox/mobile/ContentPane" data-dojo-attach-point="enrollMessage" 
+				class="text center">${descText}</span>
+			</div>
+			<div class="amountInputPane">
+				<input class='amountInput'  type='text'
+				  data-dojo-props='readOnly:true, name:"data[Payment][pay_amount]", value:"", textDir:"ltr"'
+				  placeholder="${amountText}" data-dojo-type="dojox/mobile/TextBox"
+				  data-dojo-attach-point="amountInput"/>
+			</div>
+			<div class="telephoneInputPane">
+				<input class='telephoneInput'  type='text'
+				  data-dojo-props='readOnly:true, name:"data[Payment][pay_medium]", value:"", textDir:"ltr"'
+				  placeholder="${telephoneText}" data-dojo-type="dojox/mobile/TextBox"
+				  data-dojo-attach-point="telephoneInput"/>
+			</div>
+			<div class="transactionCodeInputPane">
+				<input class='transactionCodeInput'  type='text'
+				  data-dojo-props='name:"data[Payment][pay_transaction_id]", value:"", textDir:"ltr"'
+				  placeholder="${transactionCodeText}" data-dojo-type="dojox/mobile/TextBox" data-dojo-attach-point="transactionCode"/>
+			</div>
+			<div class="enrollButtonPane">
+				<button  class='enrollButton mblBlueButton'
+				data-dojo-type="dojox/mobile/Button" data-dojo-attach-point="enrollButton">${enrollText}</button>
+			</div> 
+		</div>
+	</div>
+</div>

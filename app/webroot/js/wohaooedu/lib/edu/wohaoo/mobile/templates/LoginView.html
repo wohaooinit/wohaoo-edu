@@ -1,0 +1,23 @@
+<div class="loginContainer">
+	<div id="loginDialog" class="loginDialog">
+		<div class="loginHeaderPane">
+			<span class="company-logo center">${logoText}</span>
+		</div>
+		<div data-dojo-type="dojox/mobile/ContentPane" class="loginPane mblHidden" data-dojo-attach-point="loginPane">
+			<div class="emailInputPane">
+				<input class='emailInput'  type='email'
+				  data-dojo-props='name:"data[User][usr_telephone]", value:"", textDir:"ltr"'
+				  placeholder="${telephoneText}" data-dojo-type="dojox/mobile/TextBox" data-dojo-attach-point="telephone"/>
+			</div> 
+			<div class="passwordInputPane">
+				<input class='passwordInput' placeholder="${passwordText}" 
+							data-dojo-props='name:"data[User][usr_password]", value:"", textDir:"ltr"'
+							data-dojo-type="dojox/mobile/TextBox" type="password" data-dojo-attach-point="password"/>
+			</div>
+			<div class="loginButtonPane">
+				<button  class='loginButton'
+				data-dojo-type="dojox/mobile/Button" data-dojo-attach-point="loginButton">${loginText}</button>
+			</div> 
+		</div>
+	</div>
+</div>

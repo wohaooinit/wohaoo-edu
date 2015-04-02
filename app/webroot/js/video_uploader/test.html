@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="swfupload.js"></script>
+<script type="text/javascript" src="image_uploader.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#user_pict_id').imageUploader({
+			width: 213,
+			height: 236,
+			editable: true
+		});
+	});
+</script>
+</head>
+<body>
+<div id="image-field">
+	<label id="image-field-label">My Picture</label>
+	<input type="hidden" name="data[User][pict_id]" id="user_pict_id" value="11">
+</div>
+</body>
+</html>

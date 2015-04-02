@@ -1,0 +1,36 @@
+.statistics{
+	.dataStore{
+		display: none;
+	}
+	
+	.statistic-item{
+		clear: both;
+		margin-top: 25px;
+		height: 375px;
+		.statistic-item-caption{
+			display: block;
+			float: left;
+			h1{
+				font-size: 42px;
+				color: #52bad5;
+			}
+		}
+	
+		.statistic-item-chart{
+			display: block;
+			float: right;
+			width: 400px;
+			height: 300px;
+		}
+	}
+	
+	.linear-list {
+		display: block;
+		height: 1px;
+		border: 0px;
+		border-bottom: 1px solid #e0e0e0;
+		margin: 0px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}

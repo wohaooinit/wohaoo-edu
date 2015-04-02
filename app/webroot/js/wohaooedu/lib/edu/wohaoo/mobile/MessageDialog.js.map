@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MessageDialog.js",
+"lineCount":2,
+"mappings":"A,SAUAA,MAAA,mCAA0C,6MAAA,MAAA,KAA1C,CAIG,QAAA,CAASC,CAAT,CAAmBC,CAAnB,CAA8BC,CAA9B,CAAyCC,CAAzC,CAAsDC,CAAtD,CAA+DC,CAA/D,CACFC,CADE,CACYC,CADZ,CAC0BC,CAD1B,CACyCC,CADzC,QAEKL,EAAA,EAASG,CAAT,sGAKIE,CALJ,YAOMC,QAAAA,OACPC,MAGJT,EAAA,yBAAmCU,YAAnC,CAAAC,QAAA,CAAyD,QAAA,CAASC,CAAT,EACxDH,CAAAI,yBADwD;AACxBD,CAChCH,EAAAI,yBAAAC,UAFwD,CAEdL,CAAAF,SAAAQ,YAFc,CAAzD,CAKAf,EAAA,wBAAkCU,YAAlC,CAAAC,QAAA,CAAwD,QAAA,CAASC,CAAT,EACvDH,CAAAO,wBADuD,CACxBJ,CADwB,CAAxD,CAIAZ,EAAA,0BAAoCU,YAApC,CAAAC,QAAA,CAA0D,QAAA,CAASC,CAAT,EACzDH,CAAAQ,0BADyD,CACxBL,CACjCH,EAAAI,yBAAAC,UAFyD,CAEfL,CAAAF,SAAAW,GAFe,CAA1D,CAKAC,eAAA,CAAeC,SAAf,CAlBWZ,CAPN,MA4BAa,QAAAA,CAASC,CAATD,EACLL,4BAAAF,UADKO,CACoCC,CACzCH,eAAA,CAAeC,SAAf,CAFKC,CA5BA,EAFL,CAJH;",
+"sources":["MessageDialog.js.uncompressed.js"],
+"names":["define","domClass","dojoArray","dojoQuery","dojoConnect","declare","_WidgetBase","domConstruct","SimpleDialog","dijitRegistry","messages","postCreate","self","domNode","forEach","element","mblSimpleDialogTitleNode","innerHTML","Information","mblSimpleDialogTextNode","mblSimpleDialogButtonNode","OK","inherited","arguments","show","message"]
+}

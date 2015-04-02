@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ItemInfoView.js",
+"lineCount":2,
+"mappings":"A,SAKAA,MAAA,kCAAyC,iLAAA,MAAA,KAAzC,CAIG,QAAA,CAASC,CAAT,CAAoBC,CAApB,CAA+BC,CAA/B,CAA4CC,CAA5C,CAAqDC,CAArD,CACFC,CADE,CACYC,CADZ,CAC0BC,CAD1B,QAEKJ,EAAA,EAASG,CAAT,4BAEME,QAAAA,GACXC,uBADWD,mHAGXE,eAHWF,YAIXG,eAAA,CAAeC,SAAf,CAJWJ,CAFN,SASGK,QAAAA,GACRF,cAAA,CAAeC,SAAf,CADQC;GAEJC,WAFID,SAEWC,WAFXD,EAIRE,UAJQF,gCAKJG,MAEJf,EAAA,aAAuBgB,YAAvB,CAAAC,QAAA,CAA6C,QAAA,CAASC,CAAT,EAC5CH,CAAAI,SAD4C,CAC5BD,CAD4B,CAA7C,CAWAL,YAAAO,MAAA,QAA0BN,UAA1B,gCACSO,QAAAA,GACRN,CAAAO,UAAA,EADQD,CADT,YAIYE,QAAAA,CAASC,CAATD,EACXxB,CAAAkB,QAAA,CAAkBO,CAAlB,CAA8B,QAAA,CAASC,CAAT,CAAoBC,CAApB,EAElBC,CAAA,IAAIrB,CAAJ,EACV,OADU,CACDS,CAAAN,UADC,QAEAM,CAAAF,OAAAe,SAAA,CAAqBH,CAArB,YAFA,oBAAAE,SAAAE,CAIAd,CAAAI,SAJAU,SAOXC,UAAAC,UAT6B,CASFhB,CAAAiB,WAAA,CAAgBjB,CAAAP,mBAAhB,CAAyCiB,CAAzC,CATE,CAA9B,CADWF,CAJZ,SAgBYU,QAAAA,CAASC,CAATD,EACXlB,CAAAoB,MAAA,CAAWpB,CAAAqB,OAAAC,OAAX,CADWJ,CAhBZ,EAlBQrB,EATH,EAFL,CAJH;",
+"sources":["ItemInfoView.js.uncompressed.js"],
+"names":["define","dojoArray","dojoQuery","dojoConnect","declare","_WidgetBase","domConstruct","ItemPageView","MobileListItem","postCreate","itemTemplateString","itemClass","inherited","arguments","refresh","_store","query","self","domNode","forEach","element","listNode","fetch","onBegin","hideItems","onComplete","storeItems","storeItem","index","placeAt","getValue","item","labelNode","innerHTML","substitute","onError","error","alert","errors","err102"]
+}

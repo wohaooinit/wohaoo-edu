@@ -1,0 +1,679 @@
+/*FONT FACES*/
+@app_path: "http://127.0.0.1";
+
+@font-face{
+	font-family: 'General Foundations';
+	src: url(@app_path + '/fonts/general_foundicons.ttf') format('truetype');
+	src: url(@app_path + '/fonts/general_foundicons.eot') format('eot'), 
+	url(@app_path + '/fonts/general_foundicons.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url(@app_path + "/fonts/fontawesome-webfont.eot");
+	src: url(@app_path + "/fonts/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), 
+	url(@app_path + "/fonts/fontawesome-webfont.woff") format('woff'), 
+	url(@app_path + "/font/fontawesome-webfont.svg#FontAwesome") format('svg'),
+	url(@app_path + "/font/fontawesome-webfont.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mblView{
+	.mblIconArea {
+		height: auto;
+		width: 100px;
+	}
+}
+
+h2.questionCategory{
+	height: auto;
+	font-size: 26px;
+}
+
+.mobile {
+	.mblTextBox{
+		margin-bottom: 10px;
+	}
+	
+	.propertyListItem{
+		.mblListItemLabel{
+			font-size: 14px;
+			font-weight: normal;
+		}
+	}
+	 
+	.settingsSilentModeItem{
+		 #settingsSilentModeSwitch {
+		  float: right;
+		  margin-top: 15px;
+		}
+	}
+	
+	.settingsVolumeItem {
+		.settingsVolumeRange{
+			float: right;
+			margin-top: 16px;
+		}
+		.mblListItemLabel{
+			float: left;
+		}
+	}
+	
+	.loginDialog{
+		width: 274px;
+		margin: auto;
+		height: 100%;
+		
+		.loginHeaderPane{
+			height: 100%;
+			padding-left: 15px;
+			.company-logo{
+				font-size: 40px;
+				font-family: Arial Black;
+			}
+			.company-logo.center{
+				top: 40%;
+				left: 25%;
+				position: relative;
+			}
+			.company-logo:after{
+				content: "";
+				display: inline-block;
+				height: 32px;
+				width: 32px;
+				/*background-image: url(/img/logo-32-32.png);*/
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				margin-left: 4px;
+				top: 3px;
+				position: relative;
+			}
+		}
+		.loginPane{
+			width: 100%;
+			margin: auto;
+			margin: 7px 9px 16px;
+			padding: 15px;
+			border: 1px solid #adaaad;
+			border-radius: 8px;
+			background-color: #ffffff;
+			
+			.dijitPlaceHolder.dijitInputField {
+				position: absolute;
+				left: 0px;
+				font-size: 80%;
+				color: #bebebe;
+				margin: 4px;
+			}
+			.loginButton, .passwordInput, .emailInput{
+				width: 100%;
+			}
+			
+			.emailInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.passwordInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+		}
+	}
+	
+	.logoutDialog{
+		width: 274px;
+		margin: auto;
+		height: 100%;
+		
+		.logoutHeaderPane{
+			height: 100%;
+			padding-left: 15px;
+			.company-logo{
+				font-size: 40px;
+				font-family: Arial Black;
+			}
+			.company-logo.center{
+				top: 40%;
+				left: 25%;
+				position: relative;
+			}
+			.company-logo:after{
+				content: "";
+				display: inline-block;
+				height: 32px;
+				width: 32px;
+				/*background-image: url(/img/logo-32-32.png);*/
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				margin-left: 4px;
+				top: 3px;
+				position: relative;
+			}
+		}
+		.logoutPane{
+			width: 100%;
+			margin: auto;
+			margin: 7px 9px 16px;
+			padding: 15px;
+			border: 1px solid #adaaad;
+			border-radius: 8px;
+			background-color: #ffffff;
+			
+			.logoutButton{
+				width: 100%;
+			}
+		}
+	}
+	
+	.signupDialog{
+		width: 274px;
+		margin: auto;
+		height: 100%;
+		
+		.signupHeaderPane{
+			height: 100%;
+			padding-left: 15px;
+			.company-logo{
+				font-size: 40px;
+				font-family: Arial Black;
+			}
+			.company-logo.center{
+				top: 40%;
+				left: 25%;
+				position: relative;
+			}
+			.company-logo:after{
+				content: "";
+				display: inline-block;
+				height: 32px;
+				width: 32px;
+				/*background-image: url(/img/logo-32-32.png);*/
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				margin-left: 4px;
+				top: 3px;
+				position: relative;
+			}
+		}
+		.signupPane{
+			width: 100%;
+			margin: auto;
+			margin: 7px 9px 16px;
+			padding: 15px;
+			border: 1px solid #adaaad;
+			border-radius: 8px;
+			background-color: #ffffff;
+			
+			.dijitPlaceHolder.dijitInputField {
+				position: absolute;
+				left: 0px;
+				font-size: 80%;
+				color: #bebebe;
+				margin: 4px;
+			}
+			.signupButton, .firstNameInput, .lastNameInput, .passwordInput, .emailInput{
+				width: 100%;
+			}
+			
+			.firstNameInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.lastNameInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.telInputPane{
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.emailInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.passwordInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+		}
+	}
+	
+	.enrollDialog{
+		width: 274px;
+		margin: auto;
+		height: 100%;
+		
+		.enrollHeaderPane{
+			height: 100%;
+			padding-left: 15px;
+			.company-logo{
+				font-size: 40px;
+				font-family: Arial Black;
+			}
+			.company-logo.center{
+				top: 40%;
+				left: 25%;
+				position: relative;
+			}
+			.company-logo:after{
+				content: "";
+				display: inline-block;
+				height: 32px;
+				width: 32px;
+				/*background-image: url(/img/logo-32-32.png);*/
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				margin-left: 4px;
+				top: 3px;
+				position: relative;
+			}
+		}
+		
+		.enrollDescPane{
+			color: black;
+			padding-bottom: 20px;
+			.text{
+				font-size: 18px;
+				font-family: Arial Black;
+			}
+			.text.center{
+				top: 40%;
+				position: relative;
+			}
+		}
+		
+		.enrollPane{
+			width: 100%;
+			margin: auto;
+			margin: 7px 9px 16px;
+			padding: 15px;
+			border: 1px solid #adaaad;
+			border-radius: 8px;
+			background-color: #ffffff;
+			
+			.dijitPlaceHolder.dijitInputField {
+				position: absolute;
+				left: 0px;
+				font-size: 80%;
+				color: #bebebe;
+				margin: 4px;
+			}
+			.enrollButton, .transactionCodeInput{
+				width: 100%;
+			}
+			
+			.transactionCodeInputPane {
+				margin-bottom: 10px;
+				width: 98%;
+			}
+			
+			.amountInputPane, .telephoneInputPane{
+				margin-bottom: 10px;
+				width: 98%;
+			}
+		}
+	}
+	
+	.mblHidden{
+		display: none;
+	}
+	
+	.mblOverlay{
+		height: 100%;
+	}
+	.mblView{
+		.overlay{
+			.waiting{
+				position: relative;
+				top: 50%;
+				width:  50px;
+				margin: auto;
+			}
+		}
+	}
+	
+	.mblHeading > div.header {
+		float: left;
+	}
+	
+	.headerImage{
+		margin: 5px;
+	}
+	
+	.headerDetails{
+		overflow: visible;
+		text-align: left;
+	}
+	.itemImage{
+		margin: 8px; 
+	}
+	
+	.mblListItem.pro, .mblListItem.club {
+		padding: 12px;
+	}
+	
+	.stat{
+		.mblRoundRect{
+			margin: auto;
+			margin-top: 10px;
+			height: 210px;
+			width: 274px;
+		}
+		.chart{
+			display: block;
+			width: 250px;
+			height: 170px;
+			margin: auto;
+		}
+		height: 300px;
+	}
+	
+	.tweet{
+		.tweetviewList {
+	
+		}
+		.tweetviewHidden {
+			display:none;
+		}
+
+		.tweetviewList li {
+			min-height:55px;
+			padding-top:8px;
+		}
+
+		.tweetviewListItem { /* special formatting to allow 2 lines of content */
+			line-height:18px;
+			height:auto;
+		}
+
+		/* user's avatar */
+		.tweetviewAvatar {
+			float:left;
+		}
+		/* content wrapper for tweets */
+		.tweetviewContent {
+			padding-left:60px;
+		}
+
+		/* username formatting */
+		.tweetviewUser {
+			font-size:80%;
+		}
+
+		/* actual tweet text formatting */
+		.tweetviewText {
+			font-size:70%;
+			font-weight:normal;
+			padding-right:50px;
+			padding-bottom:10px;
+		}
+
+		.android .tweetviewText {
+			font-size:50%;
+		}
+
+
+		/* tweet time */
+		.tweetviewTime {
+			float:right;
+			color:#777;
+			font-size:65%;
+			font-weight:normal;
+			padding-right:10px;
+		}
+
+		/* clears floats at the end of the list item */
+		.tweetviewClear {
+			clear:both;
+		}
+
+		.tweetviewSwitch {
+			right:10px;
+			top:10px;
+			float:right;
+		}
+
+		.tweetviewHidden {
+			display:none;
+		}
+	}
+	
+	.attribute {
+		.attributeName{
+			font-weight: bold;
+		}
+		
+		.attributeValue{
+			font-weight: normal;
+		}
+	}
+	
+	.dataStore{
+		display: none;
+	}
+
+	.pull-right {
+		float: right;
+	}
+	
+	.text-align-left{
+		text-align: left;
+	}
+	
+	.pull-left {
+		float: left;
+	}
+
+	div[role=search] {
+		clear: both;
+		float: left;
+	}
+
+	.form-search {
+		position: relative;
+		float: left;
+		margin: 7px 0;
+		font-size: 12px;
+		width: 202px;
+		height: 26px;
+		
+		button{
+			margin: 0px;
+			border: 0px;
+		}
+		
+		.search-input {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 2;
+			color: #444;
+			background-color: transparent;
+			background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+			display: block;
+			width: 163px;
+			height: 14px;
+			padding: 6px 27px 6px 12px;
+			font-size: 12px;
+			line-height: 1;
+			color: #666;
+			background-color: #ccc;
+			border: 0;
+			border-radius: 13px;
+			-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+			box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+			-webkit-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+		}
+		
+		.icon {
+			cursor: pointer;
+			display: inline-block;
+			vertical-align: top;
+			background-image: url(/img/twitter_web_sprite_icons.png);
+			background-position: 0 0;
+			background-repeat: no-repeat;
+		}
+		
+		.search-icon {
+			z-index: 3;
+			position: absolute;
+			top: 0;
+			right: 2px;
+			display: block;
+			width: 26px;
+			height: 26px;
+			cursor: pointer;
+		}
+		
+		.icon.nav-search-active:before {
+			font-family: FontAwesome;
+			content: "\f057";
+			position: absolute;
+			font-size: 16px;
+			right: 7px;
+			top: 6px;
+		}
+		
+		.nav-search {
+			cursor: pointer;
+			width: 12px;
+			height: 14px;
+			background-position: -20px -710px;
+			margin-top: 7px;
+			margin-left: 7px;
+			background-color: transparent;
+		}
+		
+		.search-hinting-input {
+			position: absolute;
+			right: 0;
+			z-index: 1;
+			color: #999;
+			direction: auto;
+			background-color: #ccc;
+		}
+	}
+	
+	.mblDomButtonAppFavorites:before{
+		content: "\f005";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+		padding: 10px;
+	}
+	
+	.mblDomButtonAppHomeMenu:before{
+		content: "\f0ae";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+		padding: 10px;
+	}
+	
+	.mblDomButtonLogin:before{
+		content: "\f182\f183";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 22px;
+	}
+	
+	.mblDomButtonRegister:before{
+		content: "\f00e";
+		color: #ccc;
+		font-family: "General Foundations";
+		font-size: 22px;
+	}
+	
+	.mblDomButtonSettings:before{
+		content: "\f085";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 22px;
+	}
+	
+	.mblDomButtonLogout:before{
+		content: "\f08e";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 22px;
+	}
+	
+	.mblDomButtonInfo:before{
+		content: "\f05a";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+	
+	.mblDomButtonDocuments:before{
+		content: "\f18d";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+	
+	.mblDomButtonVideos:before{
+		content: "\f012";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+	
+	.mblDomButtonAudios:before{
+		content: "\f081";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+	
+	.mblDomButtonExchange:before{
+		content: "\f0ec";
+		color: #ccc;
+		font-family: "FontAwesome";
+		font-size: 22px;
+	}
+	
+	.visuallyhidden {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+	
+	label {
+		display: block;
+	}
+	
+	input, textarea, select {
+		outline: 0;
+		clear: both;
+	}
+	
+	label, input, select{
+		margin: 0px;
+	}
+	
+	.mblDomButtonAddFavorite:before{
+		content: "\f004";
+		color: #bbb;
+		font-family: "FontAwesome";
+		font-size: 16px;
+		padding: 10px;
+		/*top: -12px;*/
+	}
+	
+	.favorite  .mblDomButtonAddFavorite:before{
+		color: #f5f;
+	}
+}

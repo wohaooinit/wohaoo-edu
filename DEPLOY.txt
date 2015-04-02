@@ -1,0 +1,8 @@
+1. install apache v >2
+2. install php + php-gd + php-sqlite3
+3. chown -R CAKE_ROOT
+4. chmod a+rwx DATABASE_DIR
+5. check DocumentRoot config on /etc/apache.conf
+   make sure [AllowOverwrites All] is on
+6. check that mod_rewrite.so is loaded
+7. in app/Config/database.php make sure that database file path is ABSOLUTE

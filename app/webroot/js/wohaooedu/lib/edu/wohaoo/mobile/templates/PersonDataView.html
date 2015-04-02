@@ -1,0 +1,34 @@
+<div id="personDataViewContainer">
+	<div class="mblSimpleDialogTitle">${SettingsHeaderText}</div>
+	<div class="mblSimpleDialogText">${FirstNameLabel}</div>
+	<input data-dojo-type="dojox/mobile/TextBox"
+		   value="${FisrtName}"
+		   data-dojo-attach-point="FirstNameInput"
+		   style="width:90%;">
+	<div class="mblSimpleDialogText">${LastNameLabel}</div>
+	<input data-dojo-type="dojox/mobile/TextBox"
+		   value="${LastName}"
+		   data-dojo-attach-point="LastNameInput"
+		   style="width:90%;">
+	<div class="mblSimpleDialogText">${BirthDateLabel}</div>
+	<input data-dojo-type="dojox/mobile/TextBox"
+		value="${BirthDate}"
+		data-dojo-props='readOnly: true'
+		 data-dojo-attach-point="BirthDateInput"
+		 data-dojo-attach-event="onClick: onShowBirthDatePicker"
+		   style="width:90%;">
+	<div id="birthDateOpener" 
+		 data-dojo-attach-point="BirthDateOpener"
+		data-dojo-type="dojox/mobile/Opener"
+		data-dojo-props='lazy:true'
+			data-dojo-attach-event="onShow: onBirthDateShow, onHide: onBirthDateHide">
+	</div>
+	<button data-dojo-type="dojox/mobile/Button"
+			class="mblSimpleDialogButton" 
+			data-dojo-attach-event="onClick: onOk" 
+			data-dojo-attach-point="okButton">${OKButton}</button>
+	<button data-dojo-type="dojox/mobile/Button"
+			class="mblSimpleDialogButton" 
+			data-dojo-attach-event="onClick: onCancel"
+			data-dojo-attach-point="cancelButton">${CancelButton}</button>
+</div>
