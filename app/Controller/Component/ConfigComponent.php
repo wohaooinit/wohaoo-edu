@@ -2,7 +2,7 @@
 class ConfigComponent extends Component {
 	public $controller = null;
 
-	public function initialize($controller, $settings = array()) {
+	public function initialize(Controller $controller) {
 		$this->controller = $controller;
 	}
 
