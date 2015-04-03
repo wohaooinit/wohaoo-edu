@@ -1,6 +1,6 @@
 <?php
 //App::uses('FootNationController', 'Controller');
-App::uses('Controller', 'Controller');
+App::uses('AppController', 'Controller');
 //App::import('Lib', 'Constants');
 
 /**
@@ -8,7 +8,7 @@ App::uses('Controller', 'Controller');
  *
  * @property Lang $Lang
  */
-class LessHandlersController extends Controller {
+class LessHandlersController extends AppController {
 	public $components = array(
 			'Cakeless.Cakeless'
 		);
