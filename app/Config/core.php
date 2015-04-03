@@ -51,10 +51,15 @@
  *
  * @see ErrorHandler for more information on error handling and configuration.
  */
-	Configure::write('Error', array(
+	/*Configure::write('Error', array(
 		'handler' => 'ErrorHandler::handleError',
 		'level' =>E_ALL & ~E_STRICT & ~E_NOTICE & ~E_DEPRECATED,
 		'trace' => true
+	));*/
+	Configure::write('Error', array(
+		'handler' => 'ErrorHandler::handleError',
+		'level' => 0,
+		'trace' => false
 	));
 
 /**
