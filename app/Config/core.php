@@ -57,10 +57,10 @@
 		'trace' => true
 	));*/
 	Configure::write('Error', array(
-		'handler' => 'ErrorHandler::handleError',
-		'level' => 0,
-		'trace' => false
-	));
+    'handler' => 'ErrorHandler::handleError',
+    'level' => 0,
+    'trace' => false
+));
 
 /**
  * Configure the Exception handler used for uncaught exceptions. By default,
