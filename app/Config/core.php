@@ -302,6 +302,8 @@
  *		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  *	));
  */
+ 
+ Cache::config('default', array('engine' => 'File', 'path' => ROOT.DS.'tmp'.DS) );
 
 /**
  * Configure the cache handlers that CakePHP will use for internal

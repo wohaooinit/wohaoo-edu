@@ -96,6 +96,9 @@ if (!defined('CAKE_CORE_INCLUDE_PATH')) {
 		$failed = true;
 	}
 }
+# define a different TMP dir outside of app
+define('TMP', ROOT.DS.'tmp'.DS);
+
 if (!empty($failed)) {
 	trigger_error("CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your " . DS . "cake core directory and your " . DS . "vendors root directory.", E_USER_ERROR);
 }
