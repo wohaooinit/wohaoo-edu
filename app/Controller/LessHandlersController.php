@@ -20,7 +20,7 @@ class LessHandlersController extends Controller {
 		$less_filename = WWW_ROOT . $filename . ".less";
 		$this->log("less_filename=${less_filename}", 'debug');
 		if($filename && file_exists($less_filename)){
-			$css_filename = WWW_ROOT . $filename . ".css";
+			$css_filename = TMP . $filename . ".css";
 			$this->log("css_filename=${css_filename}", 'debug');
 			$this->log("compiling less file", 'debug');
 			try{
