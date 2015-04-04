@@ -139,8 +139,4 @@ class AppModel extends Model {
 		$lastLog = end($logs['log']);
 		return $lastLog['query'];
 	}
-	
-	public function log($msg = "", $type ="debug"){
-		//do nothing
-	}
 }
