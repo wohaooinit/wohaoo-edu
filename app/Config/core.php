@@ -358,3 +358,5 @@ Configure::write('Config.default_language', 'en');
 Configure::write('MinifyAsset', true);
 
 error_reporting(E_ALL & ~E_STRICT & ~E_NOTICE);
+
+Configure::write('Cache.disable', true);
