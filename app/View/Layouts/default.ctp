@@ -118,11 +118,11 @@
 				};
 			
 				Sys.getHttpScheme = function(){
-					return "<?php /*echo Configure::read('Config.scheme');*/?>";
+					return "<?php echo Configure::read('Config.scheme');?>";
 				};
 				
 				Sys.getHttpHost = function(){
-					return "<?php /*echo Configure::read('Config.host');*/?>";
+					return "<?php echo Configure::read('Config.host');?>";
 				};
 				
 				Sys.encrypt = function (str){
