@@ -51,14 +51,14 @@
 				packs: [
 					// Any references to a "demo" resource should load modules locally, *not* from CDN
 					{
-						name: "wedu",
+						name: "edu",
 						location: "/js/wohaooedu/lib/edu"
 					}
 				],
 				packages: [
 					// Any references to a "demo" resource should load modules locally, *not* from CDN
 					{
-						name: "wedu",
+						name: "edu",
 						location: "/js/wohaooedu/lib/edu"
 					}
 				],
@@ -73,8 +73,8 @@
 		<script type="text/javascript" src="/js/dojo-src/dojo/dojo.js"></script>
 		*/?>
 	
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojo/dojo.js"></script>
-		<script type="text/javascript" src="/js/wohaooedu/lib/edu/wohaoo.js">
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojo/dojo.js"></script>
+		<script type="text/javascript" src="/js/wohaooedu/lib/edu/wohaoo.js"></script>
 		
 		<script type="text/javascript">
 			require(["dojox/mobile/parser", "dijit/registry", "dojo/query!css3", 
