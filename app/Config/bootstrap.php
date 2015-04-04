@@ -155,3 +155,8 @@ Configure::write('Config.default_language', 'fr');
 
 Configure::write('Config.host', 'warm-peak-4400.herokuapp.com');
 Configure::write('Config.scheme', 'http');
+
+/**
+ * Path to the temporary files directory.
+ */
+define('TMP', ROOT . 'tmp' . DS);
