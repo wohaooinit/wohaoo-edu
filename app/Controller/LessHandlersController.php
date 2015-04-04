@@ -35,6 +35,7 @@ class LessHandlersController extends AppController {
 				$this->Cakeless->compile( $less_filename, $css_filename);
 			}catch(Exception $e){
 				$this->log($e->getMessage());
+				throw $e;
 			}
 			$this->log("less file is compiled, serving css file ...", 'debug');
 			$this->response->type('css');
@@ -45,7 +46,7 @@ class LessHandlersController extends AppController {
 			$this->log("</less_handlers.preprocess>", 'debug');
 			return $this->response;
 		}else{
-			$this->log("return a file not found to client", 'debug');
+			throw new Exception("returnfile ${filename} not found to client");
 			$this->response->statusCode(404); //return a file not found to client
 		}
 		$this->log("</less_handlers.preprocess>", 'debug');
