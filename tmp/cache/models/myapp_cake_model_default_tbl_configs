@@ -1,0 +1,2 @@
+1427966647
+a:4:{s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:11;s:3:"key";s:7:"primary";}s:14:"cfg_is_deleted";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";N;}s:20:"cfg_telephone_format";a:4:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";i:255;}s:25:"cfg_fees_telephone_number";a:4:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";s:0:"";s:6:"length";i:10;}}

@@ -91,7 +91,7 @@ if (!defined('TESTS')) {
  * Path to the temporary files directory.
  */
 if (!defined('TMP')) {
-	define('TMP', APP . 'tmp' . DS);
+	define('TMP', ROOT . 'tmp' . DS);
 }
 
 /**
