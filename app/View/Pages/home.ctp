@@ -158,13 +158,13 @@
 <div id="dlg_login_register"
 		data-dojo-type="dojox/mobile/SimpleDialog"
 		data-dojo-mixins="dojox.mobile._ContentPaneMixin"
-		data-dojo-props='href:"/js/dojo-src/edu/wohaoo/mobile/templates/login_register.html"'></div>
+		data-dojo-props='href:"/js/wohaooedu/lib/edu/wohaoo/mobile/templates/login_register.html"'></div>
 
 <!-- dlg_join_curriculum -->
 <div id="dlg_join_curriculum"
 		data-dojo-type="dojox/mobile/SimpleDialog"
 		data-dojo-mixins="dojox.mobile._ContentPaneMixin"
-		data-dojo-props='href:"/js/dojo-src/edu/wohaoo/mobile/templates/join_curriculum.html"'></div>
+		data-dojo-props='href:"/js/wohaooedu/lib/edu/wohaoo/mobile/templates/join_curriculum.html"'></div>
 
 
 <!-- modules -->
