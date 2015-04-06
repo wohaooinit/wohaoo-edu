@@ -10,7 +10,7 @@ App::uses('AppHelper', 'Helper');
 class FormatHelper extends AppHelper {
 	private $templates = array(
 		'video' => '<video width=${width} height=${height} controls=controls allowfullscreen><source src="${mp4}" type="video/mp4"><source src="${ogv}" type="video/ogg"><source src="${webm}" type="video/webm"><p></p></video>',
-		'audio' => '<audio><source src=\"${mp3}\" type=\"audio/mpeg\"><source src=\"${ogg}\" type=\"audio/ogg\"><source src=\"${wav}\" type=\"audio/wav\"><p></p></audio>',
+		'audio' => '<audio data-dojo-type=\"dojox.mobile.Audio\" controls><source src=\"${mp3}\" type=\"audio/mpeg\"><source src=\"${ogg}\" type=\"audio/ogg\"><source src=\"${wav}\" type=\"audio/wav\"><p></p></audio>',
 		'embed' => '',
 		'document' => '<iframe id=\"viewer\" src=\"/ViewerJS/#${pdf}\" width=\"${width}\" height=\"${height}\" allowfullscreen=\"\" webkitallowfullscreen=\"\"></iframe>'
 	);
