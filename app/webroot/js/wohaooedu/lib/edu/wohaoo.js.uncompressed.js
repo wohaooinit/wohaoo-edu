@@ -8669,10 +8669,14 @@ define([
 					var embed = self._store.getValue(storeItem, "embed");
 					
 					if(!embed){
-						var audioItem = new MobileAudio({}).placeAt(item.domNode, 'first');
+						var audioItem = new MobileAudio({'controls' : 'controls'});
+						
+						audioItem.placeAt(item.domNode, 'first');
 				
 						// Update the audio item's content using our template for items
 						audioItem.domNode.innerHTML = self.substitute(self.itemTemplateString, storeItem);
+						
+						audioItem.startup();
 					}else{
 						item.domNode.innerHTML = embed;
 					}
