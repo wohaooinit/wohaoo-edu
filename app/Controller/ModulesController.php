@@ -322,6 +322,7 @@
 				if(!empty($this->request->params['requested'])){
 					return $data;
 				}
+				$this->disableCache();
 				$this->set($data);
 				$this->set("_serialize", array("identifier", "idAttribute", "label", "items"));
 			}catch(Exception $e){
