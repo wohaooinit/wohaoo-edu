@@ -1,11 +1,11 @@
 <?php
-App::uses('FootNationController', 'Controller');
+App::uses('EduController', 'Controller');
 /**
  * CurrenciesController
  *
  * @property Currency $Currency
  */
-class CurrenciesController extends FootNationController {
+class CurrenciesController extends EduController {
 	public function beforeFilter(){
 		parent::beforeFilter();
 		$this->Auth->allow('autocomplete');

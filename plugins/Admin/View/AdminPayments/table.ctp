@@ -31,7 +31,9 @@ foreach ($payments as $payment): ?>
 		<td><?php echo h($payment['Payment']['pay_object_id']); ?>&nbsp;</td>
 		<td><?php echo h($payment['Payment']['pay_is_approved']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Form->postLink(__('Delete'), array('plugin' => 'admin', 'controller' => 'admin_payments', 'action' => 'delete', $payment['Payment']['id']), null, __('Are you sure you want to delete  Payment# %s?', $payment['Payment']['toString'])); ?>
+			<?php echo $this->Html->link(__('Edit'), array('plugin' => 'admin', 'controller' => 'admin_payments', 'action' => 'edit' , $payment['Payment']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('plugin' => 'admin', 'controller' => 'admin_payments', 'action' => 'delete', $payment['Payment']['id']), 
+			null, __('Are you sure you want to delete  Payment# %s?', $payment['Payment']['toString'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>

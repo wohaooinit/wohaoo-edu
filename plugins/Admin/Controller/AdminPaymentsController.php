@@ -68,22 +68,28 @@ class AdminPaymentsController extends AdminAppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Payment->create();
+			$date = new DateTime();;
+			$this->request->data["Payment"]["pay_started"] =  $date->getTimestamp();
+			
 			if ($this->Payment->save($this->request->data)) {
 				$this->Session->setFlash(__('The payment has been saved'), 'default', array(), 'good');
-                $this->redirect(array('action' => 'view', $this->Payment->id));
+               			if($this->Session->check('Url.referer'))
+					$this->redirect($this->Session->read('Url.referer'));
+                		$this->redirect($this->referer());
 			} else {
 				$this->Session->setFlash(__('The payment could not be saved. Please, try again.'), 'default', array(), 'bpayment');
 			}
 		} else {
-            //paymentd the named params as data
-            foreach($this->request->params['named'] as $param => $value) {
-                $columnType = $this->Payment->getColumnType($param);
-                if(!empty($columnType)) {
-                    if(empty($this->request->data['Payment'])) $this->request->data['Payment'] = array();
-                    $this->request->data['Payment'][$param] = $value;
+			//paymentd the named params as data
+			foreach($this->request->params['named'] as $param => $value) {
+				$columnType = $this->Payment->getColumnType($param);
+				if(!empty($columnType)) {
+					if(empty($this->request->data['Payment'])) $this->request->data['Payment'] = array();
+					$this->request->data['Payment'][$param] = $value;
+				}
+			}
+			$this->Session->write('Url.referer', $this->referer());
                 }
-            }
-        }
 	}
 	
 	public function edit($id = null) {
@@ -94,13 +100,16 @@ class AdminPaymentsController extends AdminAppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Payment->save($this->request->data)) {
 				$this->Session->setFlash(__('The payment has been saved'), 'default', array(), 'good');
-                $this->redirect(array('action' => 'view', $this->Payment->id));
+              			 if($this->Session->check('Url.referer'))
+					$this->redirect($this->Session->read('Url.referer'));
+                		$this->redirect($this->referer());
 			} else {
 				$this->Session->setFlash(__('The payment could not be saved. Please, try again.'), 'default', array(), 'bpayment');
 			}
 		} else {
-            $payment = $this->Payment->read(null, $id);
+          		  $payment = $this->Payment->read(null, $id);
 			$this->request->data = $payment;
+			$this->Session->write('Url.referer', $this->referer());
 		}
 	}
 	
