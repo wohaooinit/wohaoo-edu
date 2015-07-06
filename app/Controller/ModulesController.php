@@ -1098,13 +1098,15 @@
 					throw new NotFoundException($error);
 				}
 				
-				$this->log("checking if question exists ...", 'debug');
+				$this->log("checking if option exists ...", 'debug');
 				$this->loadModel('Option');
 				$this->Option->id = $a;
 				if (!$this->Option->read()) {
 					$error = __('Invalid Assessment Option');
 					throw new NotFoundException($error);
 				}
+				$this->log("option exists", 'debug');
+				
 				$exq_is_approved = $this->Option->data['Option']['opt_is_ok'];
 				$exq_answer_code = $this->Option->data['Option']['opt_code'];
 				
@@ -1118,8 +1120,10 @@
 				
 				if(!$this->ExamQuestion->save($this->ExamQuestion->data)){
 					$error = __('Exam Question cannot be Saved');
+					$this->log($error, 'debug');
 					throw new NotFoundException($error);
 				}
+				$this->log('exam question is created', 'debug');
 				
 				$this->log("checking if exam is completed ...", 'debug');
 				$this->Exam->read();
@@ -1130,13 +1134,15 @@
 				$this->Exam->data['Exam']['exa_question_count']){
 					$this->log("exam is completed. Updating exam passed state ...", 'debug');
 					$this->Exam->data['Exam']['exa_passed'] =  
-						$this->Exam->data['Exam']['exa_good_answer_count'] >= 
-						$this->Exam->data['Exam']['exa_auto_pass_count'];
+						($this->Exam->data['Exam']['exa_good_answer_count'] >= 
+						$this->Exam->data['Exam']['exa_auto_pass_count']? 1 : 0);
 					$d = new DateTime();
 					$this->Exam->data['Exam']['exa_completed'] = $d->getTimestamp();
 				}
 				
 				$this->log("saving exam ...", 'debug');
+				$this->log("Exam:=" . var_export($this->Exam->data, true), 'debug');
+				
 				if(!$this->Exam->save($this->Exam->data)){
 					$error = __('Exam cannot be Saved');
 					throw new NotFoundException($error);
@@ -1146,7 +1152,7 @@
 				
 				return true;
 			}catch(Exception $e){
-				$this->log($e->getMessage());
+				$this->log($e->getMessage(), 'debug');
 				if(!$error)
 					$error = AppModel::$DEFAULT_ERROR_MESSAGE;
 				$this->Session->setFlash($error, 

@@ -101,6 +101,12 @@ define("edu/wohaoo/mobile/ExamView", [
 				self.listNode = element;
 			});
 			
+			self.completed  = false;
+			self.forceNew = 0;
+			self.sessionid = 0;
+			self.questionId = 0;
+			self.optionId = 0;
+			
 			this.query = {id: "*", model: "exam"};
 			this._store.fetch({query: this.query, queryOptions: {deep: true}, 
 			onBegin: function(){
@@ -111,7 +117,15 @@ define("edu/wohaoo/mobile/ExamView", [
 					self.sessionId = self._store.getValue(examItem, "uniqueid");
 					var text = self._store.getValue(examItem, "text");
 					self.completed = self._store.getValue(examItem, "completed");
+					
+					domClass.remove(self.questionNode, 'mblHidden');
+					domClass.remove(self.examNextButtonNode , 'mblHidden');
+							
+					debugger;
 					if(self.completed){
+						domClass.add(self.questionNode, 'mblHidden');
+						domClass.add(self.examNextButtonNode , 'mblHidden');
+							
 						if(domClass.contains(self.examDetailsNode, "mblHidden")){
 							var score = self._store.getValue(examItem, "score");
 							self.examScoreNode.innerText = score.toString();
@@ -190,9 +204,16 @@ define("edu/wohaoo/mobile/ExamView", [
 				self.examNextButtonNode._clickEvent.remove();
 				self.examNextButtonNode._clickEvent = null;
 			}
+			
 			self.examNextButtonNode._clickEvent = dojoConnect.connect(self.examNextButtonNode, 'click', function(e){
 				if(!self.completed){
-					self.refresh();
+					domClass.remove(self.questionNode, 'mblHidden');
+					domClass.remove(self.examNextButtonNode , 'mblHidden');
+					if(self.optionId){
+						self.examNextButtonNode._clickEvent.remove();
+						self.examNextButtonNode._clickEvent = null;
+						self.refresh();
+					}
 				}else{
 					dijitRegistry.byId('dlg_message').show(self.messages.EXAM_IS_COMPLETED);
 				}
@@ -205,7 +226,13 @@ define("edu/wohaoo/mobile/ExamView", [
 			}
 			self.examRetakeButtonNode._clickEvent = dojoConnect.connect(self.examRetakeButtonNode, 'click', function(e){
 				dijitRegistry.byId('dlg_confirm').show(self.messages.CONFIRM_EXAM_RETAKE, function(){
+								domClass.remove(self.questionNode, 'mblHidden');
+								domClass.remove(self.examNextButtonNode , 'mblHidden');
 								self.forceNew = 1;
+								
+								self.examRetakeButtonNode._clickEvent.remove();
+								self.examRetakeButtonNode._clickEvent = null;
+				
 								self.refresh();
 								});
 			});

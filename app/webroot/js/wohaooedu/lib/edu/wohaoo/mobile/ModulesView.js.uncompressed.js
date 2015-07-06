@@ -35,7 +35,6 @@ define("edu/wohaoo/mobile/ModulesView", [
 			this.itemTransition = 'slide';
 			this.inherited(arguments);
 		},
-		
 		refresh: function (){
 			this.inherited(arguments);
 			if(!this._store || this._store === null)
