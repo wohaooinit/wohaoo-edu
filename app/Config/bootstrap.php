@@ -155,4 +155,6 @@ Configure::write('Config.default_language', 'fr');
 Configure::write('Config.host', 'warm-peak-4400.herokuapp.com');
 Configure::write('Config.scheme', 'https');
 
+Configure::write('Cache.disable', true);
+
 
