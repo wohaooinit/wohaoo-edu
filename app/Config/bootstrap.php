@@ -152,7 +152,7 @@ Configure::write('Config.language', 'fr');
 Configure::write('Config.default_language', 'fr');
 
 
-Configure::write('Config.host', 'edu.wohaoo.org');
-Configure::write('Config.scheme', 'http');
+Configure::write('Config.host', 'warm-peak-4400.herokuapp.com');
+Configure::write('Config.scheme', 'https');
 
 
